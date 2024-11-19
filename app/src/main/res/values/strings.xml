@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RecipeAppp</string>
+    <string name="stir_fried">Món xào</string>
+    <string name="hotpot">Món lẩu</string>
+    <string name="braised">Món kho</string>
+    <string name="fried">Món chiên</string>
+    <string name="soup">Món canh</string>
+    <string name="congee">Món cháo</string>
+    <string name="sticky_rice">Món xôi</string>
+    <string name="grilled">Món nướng</string>
+    <string name="steamed">Món hấp</string>
+    <string name="salad">Món gỏi</string>
+    <string name="drink">Đồ uống</string>
+    <string name="others">Khác</string>
+</resources>

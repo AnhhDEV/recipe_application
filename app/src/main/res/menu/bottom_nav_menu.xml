@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Món ăn"
+        android:icon="@drawable/home"/>
+    <item
+        android:title="Ưa thích"
+        android:icon="@drawable/favorite"/>
+    <item
+        android:title="Thực đơn"
+        android:icon="@drawable/menu"/>
+</menu>
