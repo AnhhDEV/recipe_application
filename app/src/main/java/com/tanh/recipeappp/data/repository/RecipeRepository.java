@@ -47,6 +47,14 @@ public class RecipeRepository {
         }
     }
 
+    public void updateRecipe(Recipe recipe) {
+        mDatabase.dao().updateRecipe(recipe);
+    }
+
+    public LiveData<List<Recipe>> getRecipesByCategoryId(Integer categoryId) {
+        return mDatabase.dao().getRecipesByCategory(categoryId);
+    }
+
     public LiveData<List<Recipe>> getRecipes() {
         return mDatabase.dao().getRecipes();
     }

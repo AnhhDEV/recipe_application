@@ -1,38 +1,138 @@
 [
   {
-    "id": 0,
-    "title": "Bánh chưng",
-    "category": 8,
-    "ingredients": "Gạo nếp, lá dong, thịt, đậu xanh...",
-    "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageUrl": "https://i.ibb.co/rcW43BN/banh-Chung.jpg",
-    "isFavorite": true
+    "id": 15,
+    "title": "Tôm chiên xù",
+    "category": 3,
+    "ingredients": "Tôm, 1 quả trứng gà, bột chiên xù 75gr, bột chiên giòn 150gr,dầu ăn",
+    "instruction":"Sơ chế tôm: tôm các bạn rửa sạch, cắt phần đuôi tôm và phần rìa của tôm, lấy chỉ ở lưng. Pha bột để chiên là bước quan trọng tạo nên các món chiên ngon: trứng gà đánh lên cho tan. Bột chiên xù các bạn đem giã nhuyễn, bột chiên giòn cắt bịch bỏ ra tô. Chiên tôm: tôm các bạn đem nhúng qua bột chiên giòn, trứng rồi đến bột chiên xù. Bật bếp ga thật nóng chảo sau đó cho dầu ăn vào. Khi dầu nóng già, bỏ tôm vào nấu cho đến khi vàng giòn hai mặt thì tắt lửa.",
+    "imageUrl": "https://i.ibb.co/M8SCCLk/Tom-chien-xu-didaudalat-result.jpg",
+    "isFavorite": false
   },
   {
-    "id": 1,
-    "title": "Bánh hấp",
-    "category": 8,
-    "ingredients": "Gạo nếp, lá dong, thịt, đậu xanh...",
-    "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageUrl": "https://i.ibb.co/rcW43BN/banh-Chung.jpg",
-    "isFavorite": true
+    "id": 16,
+    "title": "Cánh gà chiên nước mắm",
+    "category": 3,
+    "ingredients": "500g cánh gà, đường :3 muỗng, nước mắm: 3 muỗng, tỏi: 2 củ, 1/2 muỗng tiêu, 1/2 muỗng hạt nêm",
+    "instruction": "Cánh gà rửa sạch với nước lạnh cho một chút muối và gừng làm giảm bớt mùi tanh của gà Để ráo sạch gà, trộn tiêu và hạt nêm đều. Để trong 15 phút. Bật chảo nóng cho dầu ăn vào đến khi nóng lửa, cho gà vào nấu vàng hai mặt. Lấy 1 cái tô khác cho đường, nước mắm và hai muỗng nước vào trộn đều. Lấy một cái chảo khác cho hỗn hợp mắm đường nước vào cho nóng chảo sau đó cho gà vào trộn đều đến khi hỗn hợp đặc quánh lại thì tắt bếp.",
+    "imageUrl": "https://i.ibb.co/N9xVR2Y/Canh-ga-chien-nuoc-mam-didaudalat-result.jpg",
+    "isFavorite": false
   },
   {
-    "id": 2,
-    "title": "Bánh gạo",
-    "category": 8,
-    "ingredients": "Gạo nếp, lá dong, thịt, đậu xanh...",
-    "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageUrl": "https://i.ibb.co/rcW43BN/banh-Chung.jpg",
-    "isFavorite": true
+    "id": 17,
+    "title": "Đầu cá hồi chiên nước mắm",
+    "category": 3,
+    "ingredients": "Đầu cá hồi : 1 cái, tỏi : 2 củ, đường :2 muỗng, nước mắm :2 muỗng, hạt tiêu 1 muỗng, hạt nêm 1/2 muỗng",
+    "instruction": "Đầu cá hồi rửa sạch nhiều lần. Đem chà xát đầu cá với muối và chanh để át bớt mùi tanh. Tỏi băm nhuyễn. Cho ½ đã băm vào ướp với đầu cá, cho tiêu, hạt nêm vào nêm nếm 15 phút. Bật chảo nóng sau đó cho dầu ăn vào, đến khi dầu nóng cho đầu cá vào chiên vàng đều sau đó vớt qua một cái dĩa. Để tạo nên các món rán ngon: Trộn đều hỗn hợp đường, nước mắm với 2 muỗng nước. Cho hỗn hợp vừa trộn vào chảo đã bật lửa. Đến khi hỗn hợp nóng lên cho đầu cá nấu vàng vào trộn đều. Đến khi lúc mắm, đường đã hòa vào thịt đầu cá thì tắt bếp.",
+    "imageUrl": "https://i.ibb.co/Y2dpXdC/Dau-ca-hoi-chien-nuoc-mam-didaudalat-result.jpg",
+    "isFavorite": false
   },
   {
-    "id": 3,
-    "title": "Bánh chưng",
-    "category": 8,
-    "ingredients": "Gạo nếp, lá dong, thịt, đậu xanh...",
-    "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageUrl": "https://i.ibb.co/rcW43BN/banh-Chung.jpg",
-    "isFavorite": true
+    "id": 18,
+    "title": "Cá cơm chiên giòn",
+    "category": 3,
+    "ingredients": "300g cá cơm tươi, 50g bột chiên giòn, dầu ăn, muối, tiêu",
+    "instruction": "Làm sạch cá, cắt đầu, bỏ phần ruột và rửa sạch với nước muối, để cho ráo. Sau đó, mình ướp cá với chút muối và tiêu. Cho cá và bột vào tô sau đó xóc đều cho cá bám một lớp bột mỏng. Tiếp tục cho ra rổ và lắc nhẹ cho bột còn thừa rớt hết. Bắc chảo lên bếp, đổ dầu vào và chờ cho nóng, chúng ta cho cá vào rán vàng giòn. Rán cá trên lửa nhỏ để cá chín đều và có màu vàng rất đẹp mắt. Cuối cùng, vớt cá ra dĩa có lót giấy ăn thấm dầu cho ráo dầu và thưởng thức các món chiên ngon nào.",
+    "imageUrl": "https://i.ibb.co/K77LhnF/Ca-com-chien-gion-didaudalat-result.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "title": "Đậu hũ chiên xả ớt",
+    "category": 3,
+    "ingredients": "5 khuôn đậu chưa chiên, Sả băm, tỏi : 1 củ, ớt : 2 trái, đường, dầu ăn",
+    "instruction": "Cho khuôn đậu vào chảo đã đun nóng dầu đến già. Rán đến khi 2 mặt vàng đều thì tắt lửa. Số dầu còn lại, chúng ta cho sả ớt tỏi đã băm nhuyễn vào xào, thêm vào đó 1 chút đường đến khi tỏi sả ớt đã chin thì tắt lửa. Cho đậu đã chiên ra dĩa và rắc tỏi sả ớt lên trên và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/wy1VVhT/Dau-hu-chien-sa-ot-didaudalat-result.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "title": "Canh cà chua thịt băm",
+    "category": 4,
+    "ingredients": "300gr thịt lợn thăn, 3 quả cà chua, 1 củ hành, 1 mớ rau mùi, hành lá, hạt nêm, dầu ăn, nước mắm",
+    "instruction": "Thịt lợn rửa sạch cho vào máy xay xay nhỏ. Bạn nên rửa thịt lợn với chút muối, sau đó cho vào xay hai lần để thịt không bị dính nhau. Cà chua ngâm muối tầm 10 phút sau đó thái múi cau. Các bạn chú ý, khi chọn cà chua nên chọn quả nào căng bóng, chín đỏ thì mới giàu vitamin và đặc ruột nhé. Rửa sạch hành và rau mùi, cắt khúc. Hành củ bóc vỏ băm nhỏ. Đặt nồi lên bếp, cho chút dầu vào, để dầu nóng già rồi cho hành củ và thịt vào xào săn. Khi thịt săn thì cho 2 thìa cafe nước mắm vào đảo qua, tiếp đến đổ cà chua vào đảo đến khi cà chua chín tái đi thì cho nước vào đun sôi và nêm gia vị vừa với khẩu vị của Bạn. Trước khi tắt bếp bạn cho hành lá và rau mùi vào để dậy mùi. Cho canh chua thịt băm ra bát và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/zfd12Lv/canh-chua-thit-bam.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "title": "Canh cải xanh đuôi phụng nấu đậu hủ",
+    "category": 4,
+    "ingredients": "1 bó rau cải đuôi phụng, 1 bìa đậu hũ, 1 củ hành tím, 1 viên súp rau củ chay",
+    "instruction": "Rửa rau sạch cắt ngắn vừa ăn để ráo.Khử thơm một củ hành rồi cho nước vào nấu sôi với viên súp, cho đậu hủ cắt con cờ vào nấu 2 phút.Cho rau vào nấu thêm 1-2 phút cho rau mềm chín tới là được, nếm lại cho vừa ý.Cho ra bát rắc tiêu dùng nóng.",
+    "imageUrl": "https://i.ibb.co/5R3yF4x/photo.webp",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "title": "Canh rau mồng tơi nấu hến",
+    "category": 4,
+    "ingredients": "500gr rau mồng tơi, 200 gr hến nóng tươi, 4 củ hành tím, 1/2 muỗng canh dầu, muối, hạt nêm ,bột ngọt , tiêu",
+    "instruction": "Rau mồng tơi lặt bỏ lá úa già & sâu rồi ngâm rửa qua nước muối loãng. Hến lặt bỏ mài, vỏ còn sót lại của hến rồi để vào tô cùng: hành tím cắt lát + 1/2 muỗng cafe muối + 1 muỗng cafe hạt nêm + 1 muỗng cafe bột ngọt + 1/3 muỗng tiêu & dầu ăn trộn đều, ướp 10 phút. Cho 700ml nước lọc vào nồi, nước sôi để tô hến đã ướp vào & nấu sôi thêm 5 phút nữa, lúc này nêm nếm lại gia vị mới cho rau mồng tơi vào, nước canh sôi thì tắt bếp. ",
+    "imageUrl": "https://i.ibb.co/yqXM4RW/photo.webp",
+    "isFavorite": false
+  },
+
+  {
+    "id": 23,
+    "title": "Canh cá lóc nấu cải bẻ xanh",
+    "category": 4,
+    "ingredients": "350gr cá lóc(chỉ lấy đầu và đuôi), 200gr cải bẻ xanh, 10gr gừng, 1 thìa muối, 1 thìa hạt nêm, 1 thìa đường, 1/2 thìa bột ngọt, 1 thìa tiêu, 1 thìa nước mắm",
+    "instruction": "Cá Lóc làm sạch, để ráo. Cho vào nồi 1.5 lít nước + 1tsp muối, nấu cho đến khi nước sôi thì thả cá vào. Ta nấu đến khi cá chín thì vớt ra dĩa. Cải Bẹ Xanh rửa sạch, cắt khúc và để riêng phần cọng với phần lá. Ta thả phần cọng vào nồi canh nấu trước khoảng 2 phút thì cho tiếp phần lá vào nấu luôn. Nêm nếm gia vị: 1tsp hạt nêm + 1/2tsp bột ngọt + 1tsp đường + 1/2tsp tiêu… Có thể gia giảm cho vừa khẩu vị. Khi cải đã chín mềm, ta cho 10g gừng xắt sợi vào cho thơm. Thả cá vào lại nồi canh, nấu thêm 1 phút nữa cho nóng. Cho vào nồi canh 1tbsp nước mắm, đảo đều rồi tắt bếp. Múc canh và cá ra tô, dọn lên cùng một dĩa nước mắm nguyên chất dầm ớt. Món này ăn với cơm nóng rất ngon.",
+    "imageUrl": "https://i.ibb.co/bg7wJ2B/photo.webp",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "title": "Canh rau tần ô nấu gà",
+    "category": 4,
+    "ingredients": "1/4 góc đùi gà, 1 bó(400gr) rau tần ô, 1 muỗng muối, 1/2 muỗng hạt nêm",
+    "instruction": "Gà chặt nhỏ, bóp muối rửa sạch và cho vào nồi 1,5l nước nấu mềm cùng 1 muỗng muối, 1/2 muỗng hạt nêm cho gà thấm gia vị. Rau tần ô nhặt rửa sạch, để ráo. Gà mềm cho rau tần ô vào, khuấy đều nấu thêm 1 phút rồi tắt bếp vì rau rất nhanh chín. Múc canh ra tô và thêm ít tiêu xay.",
+    "imageUrl": "https://i.ibb.co/0hSRNt4/photo.webp",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "title": "Cháo nấm chay",
+    "category": 5,
+    "ingredients": "100 gram gạo tẻ, 50 gram gạo nếp, 5 tai nấm hương, 50 gram nấm bào ngư, 50 gram nấm rơm, 100 gram đỗ xanh còn vỏ, ít hành khô, hành lá, muối, hạt nêm, tiêu, dầu ăn.",
+    "instruction": "Gạo tẻ, gạo nếp, đỗ xanh vo sạch rồi ninh với 400 ml nước. Hành lá rửa sạch băm nhỏ. Nấm rơm, nấm hương, nấm bào ngư ngâm muối loãng rửa sạch để khô rồi cắt miếng nhỏ. Hành băm nhỏ phi vàng, chia làm 2 phần, lấy 1 phần xào lên với nấm nêm gia vị cho vừa. Cháo khi ninh gần chín thì cho nấm vừa xào vào đảo lên rồi nếm thử lần nữa. Cháo đơm ra bát rắc lên hành khô và hành lá là hoàn thành nhé.",
+    "imageUrl": "https://i.ibb.co/bdHpQHz/chao-nam-chay-1237939.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "title": "Cháo hột vịt lộn",
+    "category": 5,
+    "ingredients": "1/2 lon gạo, 8 quả trứng vịt lộn, 1 ít hành lá, hành tím, gừng, tiêu, hạt nêm, dầu ăn",
+    "instruction": "Vo gạo đổ 500 ml nước vào nấu cháo trắng. Đập trứng vào bát, cho gừng băm nhuyễn, hành lá băm nhỏ, hành tím cắt sợi. Cháo ninh chín tới cho trứng vào nấu chín rồi cho gừng, hạt nêm, dầu ăn. Múc cháo ra bát rắc hành lá, hành củ, tiêu là xong món cháo hột vịt lộn.",
+    "imageUrl": "https://i.ibb.co/KVyHYr5/chao-hot-vit-lon-1237943.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "title": "Cháo gà nấm hương",
+    "category": 5,
+    "ingredients": "300gr thịt gà, 30gr nấm hương, 30gr gạo, 700ml nước, 1 ít dầu ăn, hành lá,gia vị",
+    "instruction": "Gạo vo sạch rồi bắc lên nấu cháo. Nấm hương ngâm nước muối loãng để ráo rồi thái nhỏ. Thịt gà xắt miếng nhỏ rồi cùng với nấm xào chung rồi nêm với gia vị. Cho hỗn hợp gà nấm vừa xào vào cháo đã chín rồi đun sôi trở lại. Cho 1 thìa nhỏ dầu ăn rồi trộn đều lên là hoàn thành.",
+    "imageUrl": "https://i.ibb.co/rMSwDCD/chao-ga-nam-huong-1237945.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "title": "Cháo cá chép",
+    "category": 5,
+    "ingredients": "300 gram cá chép, 200 gram gạo tẻ, 75 gram đỗ xanh, 1 ít nước mắm, muối, dầu ăn, hành khô, gừng, hành lá, thì là.",
+    "instruction": " Cá chép đánh sạch vảy, bỏ ruột rồi cho vào luộc cùng gừng và thì là cho bớt tanh. Khi cá chín lọc thịt ra riêng, phần xương cho vào máy xay lấy nước, phần thịt đem ướp với 1 thìa nước mắm, tiêu, hạt nêm trong 5 phút. Gạo và đỗ vo sạch cho vào nồi nước rồi đổ nước cốt xương cá cùng với ít muối ăn khuấy đều nấu lên. Khi cháo chín cho cá vào khuấy lên, nêm lại rồi tắt bếp. Rắc hành lá rửa sạch thái nhỏ vào là bạn đã hoàn thành món cháo đầy dinh dưỡng rồi.",
+    "imageUrl": "https://i.ibb.co/nr05w7f/chao-ca-chep-1237952.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "title": "Cháo hàu",
+    "category": 5,
+    "ingredients": "5 con hàu, 200 gram gạo tẻ, 50 gram gạo nếp, 1/2 của cà rốt, 200 gram nấm rơm, 150 gram hạt sen, 1 ít tỏi, gừng, rau dăm, giá, hạt nêm, hạt tiêu và các loại gia vị thông thường.",
+    "instruction": "Hàu rửa sạch ngâm đá cho đến khi hở miệng thì lấy thịt nó cắt làm 3-4. Gừng, tỏi băm nhuyễn, cà rốt thái hạt lựu, nấm ngâm qua nước muối, rửa sạch để ráo. Phi thơm tỏi, gừng rồi cho hàu vào xào với lửa to khi thịt hàu săn lại thì tắt bếp.  Cho gạo nấu với 2,5 lít nước, khi cháo mềm thì cho hạt sen, cà rốt. Khi cháo, hạt sen, cà rốt chín thì cho nấm, gia vị hạt nêm, muối, đường đợi khi nấm chín là xong.",
+    "imageUrl": "https://i.ibb.co/hW0cTPC/chao-hau-1237966.jpg",
+    "isFavorite": false
   }
 ]

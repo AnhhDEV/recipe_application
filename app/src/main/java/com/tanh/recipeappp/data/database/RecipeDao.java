@@ -5,6 +5,7 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -20,4 +21,9 @@ public interface RecipeDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertRecipe(Recipe recipe);
 
+    @Query("SELECT * FROM recipe WHERE category=:categoryId")
+    LiveData<List<Recipe>> getRecipesByCategory(Integer categoryId);
+
+    @Update
+    void updateRecipe(Recipe recipe);
 }

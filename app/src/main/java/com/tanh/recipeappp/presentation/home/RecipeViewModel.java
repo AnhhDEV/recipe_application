@@ -21,15 +21,22 @@ public class RecipeViewModel extends ViewModel {
         this.recipeRepository = recipeRepository;
     }
 
+    //Lấy danh sách recipe theo categoryId
+    public LiveData<List<Recipe>> getRecipesByCategory(Integer categoryId) {
+        return recipeRepository.getRecipesByCategoryId(categoryId);
+    }
+
+    //Lấy danh sách recipe
     public LiveData<List<Recipe>> getRecipes() {
         return recipeRepository.getRecipes();
     }
 
-    public LiveData<Recipe> getRecipe(Integer id) {
+    //Lấy recipe theo id
+    public LiveData<Recipe> getRecipeById(Integer id) {
         return recipeRepository.getRecipeById(id);
     }
 
-    //OK
+    //Thêm recipe
     void insertRecipe(Recipe recipe) {
         Executor executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
@@ -37,12 +44,19 @@ public class RecipeViewModel extends ViewModel {
         });
     }
 
-    //OK
+    //Dữ liệu ban đầu
     void loadData(Context context) {
         Executor executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
             Log.d("recipe", "viewmodel");
             recipeRepository.loadRecipes(context);
+        });
+    }
+
+    public void updateRecipe(Recipe recipe) {
+        Executor executor = Executors.newSingleThreadExecutor();
+        executor.execute( () -> {
+            recipeRepository.updateRecipe(recipe);
         });
     }
 

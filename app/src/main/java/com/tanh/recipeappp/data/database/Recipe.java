@@ -17,6 +17,16 @@ public class Recipe {
 
     public Recipe() {}
 
+    public Recipe(Integer id, String title, int category, String ingredients, String instruction, String imageUrl, Boolean isFavorite) {
+        this.id = id;
+        this.title = title;
+        this.category = category;
+        this.ingredients = ingredients;
+        this.instruction = instruction;
+        this.imageUrl = imageUrl;
+        this.isFavorite = isFavorite;
+    }
+
     public int getId() {
         return id;
     }
