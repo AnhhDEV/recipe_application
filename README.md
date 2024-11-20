@@ -1,1 +1,3 @@
 - Home screen
+- Detail screen
+- List screen
