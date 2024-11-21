@@ -12,7 +12,7 @@
     <string name="salad">Món gỏi</string>
     <string name="drink">Đồ uống</string>
     <string name="others">Khác</string>
-    
+
     <string-array name="dishtype">
         <item>Món xào</item>
         <item>Món lẩu</item>
@@ -27,4 +27,6 @@
         <item>Đồ uống</item>
         <item>Món khác</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

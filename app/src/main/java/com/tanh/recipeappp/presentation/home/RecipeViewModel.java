@@ -55,7 +55,7 @@ public class RecipeViewModel extends ViewModel {
     }
 
     //Dữ liệu ban đầu
-    void loadData(Context context) {
+    public void loadData(Context context) {
         Executor executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
             Log.d("recipe", "viewmodel");
