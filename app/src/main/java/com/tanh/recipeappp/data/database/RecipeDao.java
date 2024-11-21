@@ -26,4 +26,7 @@ public interface RecipeDao {
 
     @Update
     void updateRecipe(Recipe recipe);
+
+    @Query("SELECT MAX(id) FROM recipe")
+    LiveData<Integer> getMaxRecipeId();
 }

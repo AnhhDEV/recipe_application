@@ -27,6 +27,15 @@ public class Recipe {
         this.isFavorite = isFavorite;
     }
 
+    public Recipe(String title, Integer categoryId, String ingredients, String instruction, String string, Boolean isFavorite) {
+        this.title = title;
+        this.category = categoryId;
+        this.ingredients = ingredients;
+        this.instruction = instruction;
+        this.imageUrl = imageUrl;
+        this.isFavorite = isFavorite;
+    }
+
     public int getId() {
         return id;
     }

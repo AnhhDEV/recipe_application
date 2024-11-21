@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.bumptech.glide.Glide;
-import com.tanh.recipeappp.R;
+
 import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.databinding.ActivityDetailBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;

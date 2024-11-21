@@ -21,6 +21,10 @@ public class RecipeViewModel extends ViewModel {
         this.recipeRepository = recipeRepository;
     }
 
+    public LiveData<Integer> getMaxId() {
+       return recipeRepository.getMaxId();
+    }
+
     //Lấy danh sách recipe theo categoryId
     public LiveData<List<Recipe>> getRecipesByCategory(Integer categoryId) {
         return recipeRepository.getRecipesByCategoryId(categoryId);
@@ -37,7 +41,7 @@ public class RecipeViewModel extends ViewModel {
     }
 
     //Thêm recipe
-    void insertRecipe(Recipe recipe) {
+    public void insertRecipe(Recipe recipe) {
         Executor executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
             recipeRepository.insertRecipe(recipe);

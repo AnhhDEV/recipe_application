@@ -1,5 +1,6 @@
 package com.tanh.recipeappp.presentation.recipes;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -28,6 +29,7 @@ public class RecipesActivity extends AppCompatActivity {
     AppContainer appContainer;
     RecipesAdapter recipeAdapter;
 
+    @SuppressLint("NotifyDataSetChanged")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,11 +50,16 @@ public class RecipesActivity extends AppCompatActivity {
         //recycleview
         recipeViewModel.getRecipesByCategory(categoryId).observe(this, recipe -> {
             list = recipe;
-            recipeAdapter = new RecipesAdapter(recipeViewModel, list);
-            binding.rvDishtype.setAdapter(recipeAdapter);
-            GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
-            binding.rvDishtype.setLayoutManager(gridLayoutManager);
-            binding.rvDishtype.setAdapter(recipeAdapter);
+            if(recipeAdapter == null) {
+                recipeAdapter = new RecipesAdapter(recipeViewModel, list);
+                binding.rvDishtype.setAdapter(recipeAdapter);
+                GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+                binding.rvDishtype.setLayoutManager(gridLayoutManager);
+                binding.rvDishtype.setAdapter(recipeAdapter);
+            }
+
+            recipeAdapter.changeList(recipe);
+            recipeAdapter.notifyDataSetChanged();
         });
         onBack();
     }

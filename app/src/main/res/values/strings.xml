@@ -12,4 +12,19 @@
     <string name="salad">Món gỏi</string>
     <string name="drink">Đồ uống</string>
     <string name="others">Khác</string>
+    
+    <string-array name="dishtype">
+        <item>Món xào</item>
+        <item>Món lẩu</item>
+        <item>Món kho</item>
+        <item>Món chiên</item>
+        <item>Món canh</item>
+        <item>Món cháo</item>
+        <item>Món xôi</item>
+        <item>Món nướng</item>
+        <item>Món hấp</item>
+        <item>Món gỏi</item>
+        <item>Đồ uống</item>
+        <item>Món khác</item>
+    </string-array>
 </resources>

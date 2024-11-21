@@ -17,6 +17,7 @@ import com.tanh.recipeappp.databinding.ActivityMainBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.RecipeViewModelFactory;
 import com.tanh.recipeappp.presentation.adapter.RecipesAdapter;
+import com.tanh.recipeappp.presentation.insert_recipe.InsertActivity;
 import com.tanh.recipeappp.presentation.recipes.RecipesActivity;
 
 import java.util.ArrayList;
@@ -68,6 +69,16 @@ public class MainActivity extends AppCompatActivity {
         goi();
         drink();
         other();
+
+        //nav
+        navToInsert();
+    }
+
+    private void navToInsert() {
+        binding.mainAdd.setOnClickListener(view -> {
+            Intent intent = new Intent(this, InsertActivity.class);
+            startActivity(intent);
+        });
     }
 
     private void loadData() {
