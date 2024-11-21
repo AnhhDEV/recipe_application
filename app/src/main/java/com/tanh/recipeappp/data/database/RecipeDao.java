@@ -29,4 +29,7 @@ public interface RecipeDao {
 
     @Query("SELECT MAX(id) FROM recipe")
     LiveData<Integer> getMaxRecipeId();
+
+    @Query("SELECT * FROM recipe WHERE isFavorite=1")
+    LiveData<List<Recipe>> getFavoriteRecipes();
 }

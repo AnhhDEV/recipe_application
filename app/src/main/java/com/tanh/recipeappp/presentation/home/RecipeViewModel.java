@@ -21,6 +21,12 @@ public class RecipeViewModel extends ViewModel {
         this.recipeRepository = recipeRepository;
     }
 
+    //Lấy danh sách recipe yêu thích
+    public LiveData<List<Recipe>> getFavoriteRecipes() {
+        return recipeRepository.getFavoriteRecipes();
+    }
+
+    //getMaxId
     public LiveData<Integer> getMaxId() {
        return recipeRepository.getMaxId();
     }

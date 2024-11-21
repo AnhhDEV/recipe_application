@@ -47,6 +47,10 @@ public class RecipeRepository {
         }
     }
 
+    public LiveData<List<Recipe>> getFavoriteRecipes() {
+        return mDatabase.dao().getFavoriteRecipes();
+    }
+
     public LiveData<Integer> getMaxId() {
         return mDatabase.dao().getMaxRecipeId();
     }
