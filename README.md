@@ -2,3 +2,5 @@
 - Detail screen
 - List screen
 - Add screen
+- Favorite list
+- Bottom navigation bar

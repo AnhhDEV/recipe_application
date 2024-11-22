@@ -18,6 +18,7 @@ import com.tanh.recipeappp.factory.RecipeViewModelFactory;
 import com.tanh.recipeappp.presentation.adapter.RecipesAdapter;
 import com.tanh.recipeappp.presentation.fragments.FavoriteFragment;
 import com.tanh.recipeappp.presentation.fragments.HomeFragment;
+import com.tanh.recipeappp.presentation.fragments.MenuFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 makeCurrentFragment(new HomeFragment(appContainer));
             } else if(itemSelected == R.id.favorite) {
                 makeCurrentFragment(new FavoriteFragment(appContainer));
+            } else if(itemSelected == R.id.menu) {
+                makeCurrentFragment(new MenuFragment(appContainer));
             }
             return true;
         });
