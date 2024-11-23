@@ -8,87 +8,145 @@
     android:orientation="vertical"
     tools:context=".presentation.insert_menu.InsertMenuActivity">
 
+    <!-- Header section with back button and title -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/back"
             android:id="@+id/back4"
-            android:background="@drawable/circle_image"/>
+            android:background="@drawable/circle_image" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thêm thực đơn hôm nay"
             android:textSize="25sp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/add_menu"
+            android:src="@drawable/add"
+            android:background="@drawable/circle_image"
             android:layout_marginLeft="8dp"/>
+
     </LinearLayout>
 
-
+    <!-- ScrollView to allow for scrolling content -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="12dp"
-                android:text="Bữa sáng"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
+            <!-- Date Section -->
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
                 android:text="Ngày: "
                 android:textSize="18sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp" />
 
             <TextView
                 android:id="@+id/tv_datepicker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="8dp"
-                android:text="dawdaw"
+                android:text=""
                 android:textSize="18sp"
-                app:layout_constraintStart_toEndOf="@+id/textView10"
-                app:layout_constraintTop_toTopOf="parent" />
-        
-            <SearchView
-                android:id="@+id/search_breakfast"
-                android:layout_width="150dp"
-                android:layout_height="30dp"/>
-            
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Breakfast Section -->
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bữa sáng"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp" />
+
             <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
                 android:id="@+id/rv_breakfast"
-                android:layout_height="0dp"
-                android:layout_marginTop="12dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
 
+            <AutoCompleteTextView
+                android:id="@+id/auto_breakfast"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Tìm món"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
 
+            <!-- Lunch Section -->
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bữa trưa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_launch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
 
+            <AutoCompleteTextView
+                android:id="@+id/auto_launch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Tìm món"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Dinner Section -->
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bữa tối"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_dinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_dinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Tìm món"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+        </LinearLayout>
     </ScrollView>
-
 </LinearLayout>

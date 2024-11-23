@@ -20,15 +20,15 @@ public class Menu {
 
     public Menu() {}
 
-    public Integer getId() {
-        return id;
-    }
-
     public Menu(List<Recipe> breakfast, List<Recipe> lunch, List<Recipe> dinner, String date) {
         this.breakfast = breakfast;
         this.lunch = lunch;
         this.dinner = dinner;
         this.date = date;
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public void setId(Integer id) {

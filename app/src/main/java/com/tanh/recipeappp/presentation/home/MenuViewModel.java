@@ -18,6 +18,7 @@ public class MenuViewModel extends ViewModel {
         this.menuRepository = menuRepository;
     }
 
+
     public LiveData<Menu> getMenuById(Integer id) {
         return menuRepository.getMenuById(id);
     }

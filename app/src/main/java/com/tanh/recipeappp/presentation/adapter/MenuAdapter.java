@@ -57,10 +57,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
         TextView launch = holder.itemView.findViewById(R.id.tv_launch);
         TextView dinner = holder.itemView.findViewById(R.id.tv_dinner);
         TextView date = holder.itemView.findViewById(R.id.tv_date);
-//
-//        breakfast.setText(getRecipes(currentMenu.getBreakfast()));
-//        launch.setText(getRecipes(currentMenu.getLunch()));
-//        dinner.setText(getRecipes(currentMenu.getDinner()));
+
+        breakfast.setText(getRecipes(currentMenu.getBreakfast()));
+        launch.setText(getRecipes(currentMenu.getLunch()));
+        dinner.setText(getRecipes(currentMenu.getDinner()));
         date.setText(currentMenu.getDate());
 
         //delete
@@ -88,8 +88,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
             sb.append(recipe.getTitle());
             sb.append(", ");
         }
-        sb.deleteCharAt(sb.length() - 1);
-        sb.deleteCharAt(sb.length() - 1);
+        if(sb.length() > 1) {
+            sb.deleteCharAt(sb.length() - 1);
+            sb.deleteCharAt(sb.length() - 1);
+        }
         return sb.toString();
     }
 
