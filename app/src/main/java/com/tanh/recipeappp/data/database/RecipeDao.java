@@ -7,6 +7,8 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
+import com.tanh.recipeappp.presentation.model.MeRecipe;
+
 import java.util.List;
 
 @Dao
@@ -32,4 +34,10 @@ public interface RecipeDao {
 
     @Query("SELECT * FROM recipe WHERE isFavorite=1")
     LiveData<List<Recipe>> getFavoriteRecipes();
+
+    @Query("SELECT id,title from recipe")
+    LiveData<List<MeRecipe>> getTitles();
+
+
+
 }

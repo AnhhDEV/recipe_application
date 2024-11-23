@@ -33,6 +33,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -60,4 +61,7 @@ dependencies {
 
     implementation("com.github.bumptech.glide:glide:4.15.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.0")
+
+    //fragment
+    implementation("androidx.fragment:fragment:1.8.5")
 }

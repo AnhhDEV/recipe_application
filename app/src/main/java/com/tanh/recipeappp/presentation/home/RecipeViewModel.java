@@ -6,8 +6,10 @@ import android.util.Log;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.tanh.recipeappp.data.database.Menu;
 import com.tanh.recipeappp.data.database.Recipe;
 import com.tanh.recipeappp.data.repository.RecipeRepository;
+import com.tanh.recipeappp.presentation.model.MeRecipe;
 
 import java.util.List;
 import java.util.concurrent.Executor;
@@ -19,6 +21,10 @@ public class RecipeViewModel extends ViewModel {
 
     public RecipeViewModel(RecipeRepository recipeRepository) {
         this.recipeRepository = recipeRepository;
+    }
+
+    public LiveData<List<MeRecipe>> getTitles() {
+        return recipeRepository.getTitles();
     }
 
     //Lấy danh sách recipe yêu thích
@@ -55,7 +61,7 @@ public class RecipeViewModel extends ViewModel {
     }
 
     //Dữ liệu ban đầu
-    void loadData(Context context) {
+    public void loadData(Context context) {
         Executor executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
             Log.d("recipe", "viewmodel");

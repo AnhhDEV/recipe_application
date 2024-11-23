@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/dish"
         android:title="Món ăn"
         android:icon="@drawable/home"/>
     <item
+        android:id="@+id/favorite"
         android:title="Ưa thích"
         android:icon="@drawable/favorite"/>
     <item
+        android:id="@+id/menu"
         android:title="Thực đơn"
         android:icon="@drawable/menu"/>
 </menu>

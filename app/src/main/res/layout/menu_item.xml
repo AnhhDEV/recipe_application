@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginVertical="16dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="5dp"
+        app:contentPadding="8dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="84dp">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bữa sáng:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Bữa trưa:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="Bữa tối:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Thời gian:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="canh cá, bánh chưng, canh cá, bánh chưng, canh cá, bánh chưng"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_launch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="35dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="canh cá, bánh chưng, canh cá, bánh chưng, canh cá, bánh chưng"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="68dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="canh cá, bánh chưng, canh cá, bánh chưng, canh cá, bánh chưng"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="100dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="29/10/2004"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/delete" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

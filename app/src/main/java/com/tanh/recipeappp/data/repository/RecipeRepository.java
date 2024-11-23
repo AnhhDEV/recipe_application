@@ -10,6 +10,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.tanh.recipeappp.data.database.MDatabase;
 import com.tanh.recipeappp.data.database.Recipe;
+import com.tanh.recipeappp.presentation.model.MeRecipe;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -45,6 +46,10 @@ public class RecipeRepository {
         } catch (IOException e) {
             Log.d("recipe", "error");
         }
+    }
+
+    public LiveData<List<MeRecipe>> getTitles() {
+        return mDatabase.dao().getTitles();
     }
 
     public LiveData<List<Recipe>> getFavoriteRecipes() {
