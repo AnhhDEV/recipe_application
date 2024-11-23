@@ -5,6 +5,7 @@ import androidx.room.TypeConverter;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.tanh.recipeappp.data.database.Recipe;
 
 import java.util.List;
 
@@ -12,18 +13,18 @@ import java.util.List;
 public class Converter {
 
     @TypeConverter
-    public List<Integer> fromListJson(String json) {
+    public List<Recipe> fromListJson(String json) {
         return new Gson().fromJson(
                 json,
-                new TypeToken<List<Integer>>(){}.getType()
+                new TypeToken<List<Recipe>>(){}.getType()
         );
     }
 
     @TypeConverter
-    public String toListJson(List<Integer> list) {
+    public String toListJson(List<Recipe> list) {
         return new Gson().toJson(
                 list,
-                new TypeToken<List<Integer>>(){}.getType()
+                new TypeToken<List<Recipe>>(){}.getType()
         );
     }
 
