@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
         init();
 
         //set menu
-        HomeFragment homeFragment = new HomeFragment(appContainer);
-        makeCurrentFragment(homeFragment);
+        makeCurrentFragment(new HomeFragment(appContainer));
 
         binding.bottomNavigationView.setOnItemSelectedListener((menuItem) -> {
             int itemSelected = menuItem.getItemId();

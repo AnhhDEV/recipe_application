@@ -1,4 +1,4 @@
-package com.tanh.recipeappp.presentation.detail;
+package com.tanh.recipeappp.presentation.detail_recipe;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,6 @@ import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.databinding.ActivityDetailBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.RecipeViewModelFactory;
-import com.tanh.recipeappp.presentation.home.MainActivity;
 import com.tanh.recipeappp.presentation.home.RecipeViewModel;
 
 public class DetailActivity extends AppCompatActivity {
@@ -54,8 +53,7 @@ public class DetailActivity extends AppCompatActivity {
 
         //back
         binding.back1.setOnClickListener(view -> {
-            Intent intent1 = new Intent(this, MainActivity.class);
-            startActivity(intent1);
+            finish();
         });
     }
 
