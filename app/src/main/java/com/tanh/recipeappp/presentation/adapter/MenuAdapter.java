@@ -79,7 +79,8 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
                             list.add(position, currentMenu);
                             notifyItemInserted(position);
                         }
-                    });
+                    })
+                    .show();
         });
 
         //navToDetailMenu
