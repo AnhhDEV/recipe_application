@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tanh.recipeappp.RecipeApplication;
@@ -39,6 +40,8 @@ public class InsertMenuActivity extends AppCompatActivity {
     private Recipes2Adapter recipesAdapter2 = null;
     private Recipes2Adapter recipesAdapter3 = null;
 
+
+    String date = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +74,7 @@ public class InsertMenuActivity extends AppCompatActivity {
             DatePickerDialog datePickerDialog = new DatePickerDialog(
                     InsertMenuActivity.this,
                     (view, selectedYear, selectedMonth, selectedDay) -> {
-                        String date = selectedDay + "/ " + selectedMonth + "/ " + selectedYear;
+                        date = selectedDay + "/ " + selectedMonth + "/ " + selectedYear;
                         binding.tvDatepicker.setText(date);
                     },
                     year, month, day
@@ -129,8 +132,9 @@ public class InsertMenuActivity extends AppCompatActivity {
             });
 
             binding.addMenu.setOnClickListener(view -> {
-                Menu newMenu = new Menu(breakfast, launch, dinner, "29/10/2004");
+                Menu newMenu = new Menu(breakfast, launch, dinner, date);
                 menuViewModel.insertMenu(newMenu);
+                date = null;
                 finish();
             });
         });
@@ -150,7 +154,7 @@ public class InsertMenuActivity extends AppCompatActivity {
     private void setRecycle(Recipes2Adapter adapter, RecyclerView recyclerView, List<Recipe> list) {
         if (adapter == null) {
             adapter = new Recipes2Adapter(recipeViewModel, list);
-            GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 1);
+            LinearLayoutManager gridLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
             recyclerView.setLayoutManager(gridLayoutManager);
             recyclerView.setAdapter(adapter);
         } else {

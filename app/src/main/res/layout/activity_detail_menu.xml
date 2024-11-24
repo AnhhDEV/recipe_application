@@ -7,4 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".presentation.detail_menu.DetailMenuActivity">
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

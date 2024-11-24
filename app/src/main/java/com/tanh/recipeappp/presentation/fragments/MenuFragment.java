@@ -7,10 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.databinding.FragmentMenuBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.MenuViewModelFactory;
@@ -22,14 +24,20 @@ import com.tanh.recipeappp.presentation.insert_menu.InsertMenuActivity;
 
 public class MenuFragment extends Fragment {
 
-    private final AppContainer appContainer;
+    private AppContainer appContainer;
     private FragmentMenuBinding binding;
     private RecipeViewModel recipeViewModel;
     private MenuViewModel menuViewModel;
     private MenuAdapter adapter = null;
 
-    public MenuFragment(AppContainer appContainer) {
-        this.appContainer = appContainer;
+    public MenuFragment() {
+
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        appContainer = ((RecipeApplication) requireActivity().getApplication()).getAppContainer();
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

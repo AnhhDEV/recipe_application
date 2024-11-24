@@ -82,6 +82,7 @@
                 android:layout_marginTop="12dp" />
 
             <androidx.recyclerview.widget.RecyclerView
+                android:scrollbars="horizontal"
                 android:id="@+id/rv_breakfast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,6 +109,7 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_launch"
+                android:scrollbars="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp" />
@@ -133,6 +135,7 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_dinner"
+                android:scrollbars="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp" />

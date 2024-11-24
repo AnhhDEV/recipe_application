@@ -3,11 +3,13 @@ package com.tanh.recipeappp.presentation.fragments;
 import static android.content.Context.MODE_PRIVATE;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -19,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.tanh.recipeappp.R;
+import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.databinding.FragmentHomeBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.RecipeViewModelFactory;
@@ -29,14 +32,19 @@ import com.tanh.recipeappp.presentation.recipes.RecipesActivity;
 
 public class HomeFragment extends Fragment {
 
-    private final AppContainer appContainer;
+    private AppContainer appContainer;
     private RecipesAdapter adapter = null;
     private RecyclerView recyclerView;
     private RecipeViewModel recipeViewModel;
     private FragmentHomeBinding binding;
 
-    public HomeFragment(AppContainer appContainer) {
-        this.appContainer = appContainer;
+    public HomeFragment() {
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        appContainer = ((RecipeApplication) requireActivity().getApplication()).getAppContainer();
     }
 
     @Override
@@ -44,10 +52,12 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
 
         //init
+        if(getArguments() != null) {
+            appContainer = (AppContainer) getArguments().getSerializable("appContainer");
+        }
         RecipeViewModelFactory factory = new RecipeViewModelFactory(appContainer.getRecipeRepository());
         recipeViewModel = new ViewModelProvider(this, factory).get(RecipeViewModel.class);
 
-        loadData();
         setRecyclerView();
         //button
         stirfried();
@@ -93,18 +103,7 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    private void loadData() {
 
-        SharedPreferences sharedPreferences = getContext().getSharedPreferences("login", MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        boolean status = sharedPreferences.getBoolean("status", false);
-        if(!status) {
-            editor.putBoolean("status", true);
-            editor.apply();
-            recipeViewModel.loadData(getContext().getApplicationContext());
-        }
-
-    }
 
 
     public void stirfried() {

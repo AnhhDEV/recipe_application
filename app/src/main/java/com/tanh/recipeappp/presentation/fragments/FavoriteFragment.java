@@ -8,12 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tanh.recipeappp.R;
+import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.data.database.Recipe;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.RecipeViewModelFactory;
@@ -25,13 +27,18 @@ import java.util.List;
 
 public class FavoriteFragment extends Fragment {
 
-    private final AppContainer appContainer;
+    private AppContainer appContainer;
     private RecipesAdapter adapter = null;
     private RecyclerView recyclerView;
     private RecipeViewModel recipeViewModel;
 
-    public FavoriteFragment(AppContainer appContainer) {
-        this.appContainer = appContainer;
+    public FavoriteFragment() {
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        appContainer = ((RecipeApplication) requireActivity().getApplication()).getAppContainer();
     }
 
     @Override
