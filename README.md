@@ -4,3 +4,8 @@
 - Add screen
 - Favorite list
 - Bottom navigation bar
+- Home menu
+- Detail menu
+- Add menu
+- Delete menu
+- Undo deleleted menu
