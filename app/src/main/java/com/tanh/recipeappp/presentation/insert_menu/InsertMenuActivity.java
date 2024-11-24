@@ -1,24 +1,15 @@
 package com.tanh.recipeappp.presentation.insert_menu;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Adapter;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.SearchView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tanh.recipeappp.R;
 import com.tanh.recipeappp.RecipeApplication;
 import com.tanh.recipeappp.data.database.Menu;
 import com.tanh.recipeappp.data.database.Recipe;
@@ -26,13 +17,14 @@ import com.tanh.recipeappp.databinding.ActivityInsertMenuBinding;
 import com.tanh.recipeappp.dependencies.AppContainer;
 import com.tanh.recipeappp.factory.MenuViewModelFactory;
 import com.tanh.recipeappp.factory.RecipeViewModelFactory;
-import com.tanh.recipeappp.presentation.adapter.MenuAdapter;
+import com.tanh.recipeappp.presentation.adapter.Recipes2Adapter;
 import com.tanh.recipeappp.presentation.adapter.RecipesAdapter;
 import com.tanh.recipeappp.presentation.home.MenuViewModel;
 import com.tanh.recipeappp.presentation.home.RecipeViewModel;
 import com.tanh.recipeappp.presentation.model.MeRecipe;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class InsertMenuActivity extends AppCompatActivity {
@@ -44,10 +36,12 @@ public class InsertMenuActivity extends AppCompatActivity {
 
     private ArrayAdapter<String> adapter;
 
-    private RecipesAdapter recipesAdapter1 = null;
-    private RecipesAdapter recipesAdapter2 = null;
-    private RecipesAdapter recipesAdapter3 = null;
+    private Recipes2Adapter recipesAdapter1 = null;
+    private Recipes2Adapter recipesAdapter2 = null;
+    private Recipes2Adapter recipesAdapter3 = null;
 
+
+    String date = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +52,35 @@ public class InsertMenuActivity extends AppCompatActivity {
 
         filter();
 
+        handleDatePicker();
+
+        navToMenuFragment();
+    }
+
+    private void navToMenuFragment() {
+        binding.back4.setOnClickListener(view -> {
+            finish();
+        });
+    }
+
+    private void handleDatePicker() {
+
+        binding.pickDate.setOnClickListener(v -> {
+            Calendar calendar = Calendar.getInstance();
+            int year = calendar.get(Calendar.YEAR);
+            int month = calendar.get(Calendar.MONTH);
+            int day = calendar.get(Calendar.DAY_OF_MONTH);
+
+            DatePickerDialog datePickerDialog = new DatePickerDialog(
+                    InsertMenuActivity.this,
+                    (view, selectedYear, selectedMonth, selectedDay) -> {
+                        date = selectedDay + "/ " + selectedMonth + "/ " + selectedYear;
+                        binding.tvDatepicker.setText(date);
+                    },
+                    year, month, day
+            );
+            datePickerDialog.show();
+        });
     }
 
     private void filter() {
@@ -72,46 +95,66 @@ public class InsertMenuActivity extends AppCompatActivity {
             binding.autoBreakfast.setAdapter(adapter);
             binding.autoBreakfast.setThreshold(1);
             binding.autoBreakfast.setOnItemClickListener((parent, view, position, id) -> {
-                Integer recipeId = meRecipes.get(position).getId();
-                recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
-                    breakfast.add(recipe);
-                    setRecycle(recipesAdapter1, binding.rvBreakfast, breakfast);
-                });
+                String title = adapter.getItem(position);
+                Integer recipeId = findId(meRecipes, title);
+                if (recipeId != null) {
+                    recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
+                        breakfast.add(recipe);
+                        setRecycle(recipesAdapter1, binding.rvBreakfast, breakfast);
+                    });
+                }
             });
             //auto2
             binding.autoLaunch.setAdapter(adapter);
             binding.autoLaunch.setThreshold(1);
             binding.autoLaunch.setOnItemClickListener((parent, view, position, id) -> {
-                Integer recipeId = meRecipes.get(position).getId();
-                recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
-                    launch.add(recipe);
-                    setRecycle(recipesAdapter2, binding.rvLaunch, launch);
-                });
-
+                String title = adapter.getItem(position);
+                Integer recipeId = findId(meRecipes, title);
+                if(recipeId != null) {
+                    recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
+                        launch.add(recipe);
+                        setRecycle(recipesAdapter2, binding.rvLaunch, launch);
+                    });
+                }
             });
             //auto3
             binding.autoDinner.setAdapter(adapter);
             binding.autoDinner.setThreshold(1);
             binding.autoDinner.setOnItemClickListener((parent, view, position, id) -> {
-                Integer recipeId = meRecipes.get(position).getId();
-                recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
-                    dinner.add(recipe);
-                    setRecycle(recipesAdapter3, binding.rvDinner, dinner);
-                });
+                String title = adapter.getItem(position);
+                Integer recipeId = findId(meRecipes, title);
+                if(recipeId != null) {
+                    recipeViewModel.getRecipeById(recipeId).observe(this, recipe -> {
+                        dinner.add(recipe);
+                        setRecycle(recipesAdapter3, binding.rvDinner, dinner);
+                    });
+                }
             });
 
             binding.addMenu.setOnClickListener(view -> {
-                Menu newMenu = new Menu(breakfast, launch, dinner, "29/10/2004");
+                Menu newMenu = new Menu(breakfast, launch, dinner, date);
                 menuViewModel.insertMenu(newMenu);
+                date = null;
                 finish();
             });
         });
     }
 
-    private void setRecycle(RecipesAdapter adapter, RecyclerView recyclerView, List<Recipe> list) {
+    private Integer findId(List<MeRecipe> list, String query) {
+        Integer id = null;
+        for (MeRecipe meRecipe : list) {
+            if (meRecipe.getTitle().equals(query)) {
+                id = meRecipe.getId();
+                break;
+            }
+        }
+        return id;
+    }
+
+    private void setRecycle(Recipes2Adapter adapter, RecyclerView recyclerView, List<Recipe> list) {
         if (adapter == null) {
-            adapter = new RecipesAdapter(recipeViewModel, list);
-            GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+            adapter = new Recipes2Adapter(recipeViewModel, list);
+            LinearLayoutManager gridLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
             recyclerView.setLayoutManager(gridLayoutManager);
             recyclerView.setAdapter(adapter);
         } else {

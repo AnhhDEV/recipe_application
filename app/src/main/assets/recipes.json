@@ -1,5 +1,140 @@
 [
   {
+    "id": 0,
+    "title": "Súp lơ xào thịt bò",
+    "category": 0,
+    "ingredients": "Súp lơ (400g), Thịt bò (300g), Cà chua 2 trái, Tỏi 1 củ, Hành lá, Gia vị đi kèm: nước mắm, tiêu, muối.",
+    "instruction":" Rửa sạch thịt bò và cắt thành lát mỏng. Nước mắm, tỏi, tiêu, dầu ăn ướp thịt mềm. Súp lơ rửa sạch, ngâm nước muối, cà chua gọt vỏ, tỏi băm, hành tím băm nhuyễn. Xào thịt bò đã ướp với tỏi thơm, cho cà chua và súp lơ vào xào khoảng 3 phút. Tắt lửa, thêm hành lá, đảo đều rồi cho ra đĩa. Vậy là bạn đã hoàn thành xong món súp lơ xào thịt bò.",
+    "imageUrl": "https://i.ibb.co/Ph7q3WT/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 1,
+    "title": "Sườn xào chua ngọt",
+    "category": 0,
+    "ingredients": "500g sườn non, 1 củ hành tím, 2 tép tỏi, 1 trái ớt (tuỳ chọn), Gia vị: nước mắm, đường, giấm (hoặc chanh), nước tương, tương cà, dầu ăn.",
+    "instruction":" Rửa sườn với nước muối, chặt miếng vừa ăn. Luộc sơ qua với nước sôi, rửa lại nước lạnh cho sạch bọt. Để sườn ráo, chiên vàng đều các mặt trong chảo dầu nóng. Phi thơm hành, tỏi băm. Pha sốt: 2 muỗng nước mắm, 2 muỗng đường, 1 muỗng giấm, 1 muỗng tương cà, 3 muỗng nước lọc. Xào sườn: Cho sườn vào chảo, đổ sốt chua ngọt, đảo đều. Rim lửa nhỏ đến khi sốt sệt lại và thấm đều sườn.",
+    "imageUrl": "https://i.ibb.co/mzKLrhH/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 2,
+    "title": "Mực xào cay giòn",
+    "category": 0,
+    "ingredients": "500g mực tươi, 1 quả ớt chuông (đỏ hoặc xanh), 1 củ hành tây, 1-2 trái ớt tươi. Gia vị: tỏi, dầu ăn, nước mắm, đường, hạt nêm, tương ớt, sa tế (tùy chọn).",
+    "instruction":" Mực: Rửa sạch, khứa vảy rồng (nếu thích), cắt miếng vừa ăn. Trần sơ qua nước sôi có gừng, rồi vớt ra ngâm nước lạnh để mực giòn. Rau củ: Hành tây, ớt chuông thái miếng vừa ăn. Xào mực: Phi thơm tỏi trong dầu nóng. Cho mực vào đảo nhanh, nêm 1 chút nước mắm, rồi trút ra đĩa. Xào rau củ: Dùng chảo đó, cho hành tây, ớt chuông và ớt tươi vào xào. Nêm 1 thìa hạt nêm, 1 thìa đường, 1 thìa sa tế hoặc tương ớt. Hoàn thiện món ăn: Cho mực đã xào vào, đảo đều với rau củ khoảng 1-2 phút, nêm lại gia vị cho vừa miệng.",
+    "imageUrl": "https://i.ibb.co/DWmQtqR/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 3,
+    "title": "Tôm xào húng quế",
+    "category": 0,
+    "ingredients": "300g tôm tươi, 1 nắm lá húng quế, 1 quả ớt tươi, 2 tép tỏi. Gia vị: nước mắm, đường, hạt nêm, dầu ăn.",
+    "instruction":" Tôm: Rửa sạch, bóc vỏ (giữ đuôi nếu thích), bỏ chỉ lưng. Húng quế: Rửa sạch, để ráo. Tỏi, ớt: Băm nhỏ. Xào tôm: Phi thơm tỏi và ớt trong dầu nóng. Cho tôm vào xào, nêm 1 thìa nước mắm, 1/2 thìa đường, 1/2 thìa hạt nêm. Xào đến khi tôm chuyển màu đỏ hồng. Thêm húng quế: Khi tôm chín, cho lá húng quế vào, đảo đều khoảng 1 phút rồi tắt bếp.",
+    "imageUrl": "https://i.ibb.co/ZJk9hFC/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 4,
+    "title": "Gà xào giòn",
+    "category": 0,
+    "ingredients": "300g thịt ức gà hoặc đùi gà (không xương), 1 quả ớt chuông, 1 củ hành tây, 2 tép tỏi. Gia vị: muối, tiêu, nước mắm, đường, hạt nêm, bột bắp (hoặc bột năng), dầu ăn.",
+    "instruction":" Gà: Rửa sạch, cắt miếng vừa ăn. Ướp với 1 thìa nước mắm, 1/2 thìa hạt nêm, 1 chút tiêu, để 15 phút. Rau củ: Ớt chuông, hành tây thái miếng vừa ăn. Tỏi: Băm nhỏ. Chiên gà giòn: Áo đều thịt gà với bột bắp. Chiên gà trong chảo dầu nóng đến khi vàng giòn, vớt ra để ráo dầu. Xào rau củ: Phi thơm tỏi trong chảo. Cho ớt chuông, hành tây vào xào, nêm 1/2 thìa hạt nêm và 1 chút đường. Hoàn thiện món ăn: Cho thịt gà chiên giòn vào chảo rau củ, đảo đều trong 1 phút để thấm gia vị. Tắt bếp, có thể thêm hành lá hoặc rắc chút tiêu.",
+    "imageUrl": "https://i.ibb.co/DLrn0X9/5-mon-xao-dam-da-cho-bua-com-cuoi-tuan-3-1469848966-width500height375.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 5,
+    "title": "Lẩu ếch húng chó",
+    "category": 1,
+    "ingredients": " Ếch: 1kg (làm sạch, bóc da, chặt miếng vừa ăn). Rau ăn kèm: 1 bó rau húng chó, rau muống, mồng tơi (hoặc rau cải tùy thích). Gia vị: hành tím, tỏi, sả, ớt, sa tế, mẻ (hoặc giấm bỗng), mắm tôm, nước mắm, đường, hạt nêm. Nước dùng: xương ống (hoặc xương heo ninh lấy nước). Phụ liệu: măng chua, đậu phụ, nấm (tùy chọn).",
+    "instruction":"  Ếch: Rửa sạch, ướp với 1 thìa mắm tôm, 1/2 thìa hạt nêm, 1 thìa nước mắm, chút tiêu, tỏi băm, sa tế, để ngấm 15 phút. Măng chua: Rửa sạch, luộc qua để giảm độ chua. Rau: Rửa sạch, để ráo. Nấu nước lẩu: Ninh xương ống khoảng 30-40 phút để lấy nước dùng.Phi thơm hành tím, tỏi, ớt, thêm mẻ (hoặc giấm bỗng), 1 thìa mắm tôm, xào cùng măng chua. Đổ hỗn hợp này vào nồi nước dùng.Nêm gia vị: nước mắm, đường, hạt nêm cho vừa miệng. Hoàn thiện lẩu: Cho ếch vào nồi lẩu, thêm vài lá húng chó để tăng mùi thơm. Đun sôi, ăn kèm rau, đậu phụ, nấm và bún tươi. Mẹo: Thêm 1-2 quả chanh hoặc vài lát dứa để nước lẩu thơm và đậm đà hơn. Húng chó giúp tăng vị đặc trưng cho món lẩu, nên cho vừa đủ để không bị đắng.",
+    "imageUrl": "https://i.ibb.co/h1wbppR/cuoi-tuan-se-lanh-nau-ngay-5-mon-lau-hap-dan-lai-nong-hoi-nay-ca-nha-an-can-ca-noi-vi-qua-ngon-1-172.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 6,
+    "title": "Lẩu cua đồng",
+    "category": 1,
+    "ingredients": " Cua đồng: 500g (xay hoặc giã nhuyễn). Xương ống: 500g (ninh nước dùng). Đậu phụ: 3-4 miếng (cắt nhỏ). Cà chua: 3 quả (bổ múi cau). Rau ăn kèm: rau muống, rau nhút, mồng tơi, hoa chuối (tuỳ thích). Gia vị: mắm tôm, mẻ (hoặc giấm bỗng), nước mắm, hạt nêm, hành tím. Phụ liệu: chả cá, bò, tôm, mực (tùy chọn).",
+    "instruction":" Cua đồng: Rửa sạch, tách mai lấy gạch cua để riêng. Thân cua giã nhuyễn hoặc xay, lọc lấy nước. Xương ống: Rửa sạch, trần qua nước sôi, sau đó ninh 40 phút để lấy nước dùng. Rau: Rửa sạch, để ráo. Nấu nước cua: Lọc nước cua, cho vào nồi, thêm 1/2 thìa muối, đun lửa nhỏ. Khi gạch cua kết lại, vớt ra để riêng. Xào gạch cua: Phi thơm hành tím, cho gạch cua vào xào với chút nước mắm để dậy mùi. Nấu nước lẩu: Kết hợp nước cua và nước xương ống đã ninh. Thêm cà chua, mẻ (hoặc giấm bỗng), 1 thìa mắm tôm, nêm nếm vừa miệng. Đun sôi, thả đậu phụ vào. Hoàn thiện: Xếp gạch cua lên mặt nồi lẩu để đẹp mắt. Ăn kèm rau, bún, chả cá, bò, tôm, mực tuỳ thích. Mẹo: Để gạch cua không bị tan, đun nước cua nhỏ lửa, khuấy nhẹ tay.Thêm dứa và vài lát ớt nếu muốn nước dùng thơm và hơi cay.",
+    "imageUrl": "https://i.ibb.co/cxZSTsm/cuoi-tuan-mat-troi-lam-noi-lau-cua-dong-nhung-bau-cuc-ngon-lai-thanh-mat-de-an-2-2-n-1714884744-316.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 7,
+    "title": "Lẩu bò nhúng mắm ruốc",
+    "category": 1,
+    "ingredients": " Thịt bò: 500g (thái lát mỏng, chọn phần bắp bò hoặc thăn). Mắm ruốc: 100g. Nước dừa tươi: 1-2 quả. Sả: 4-5 cây, đập dập. Tỏi, hành tím, ớt: Băm nhỏ. Rau ăn kèm: rau muống, cải xanh, rau mồng tơi, bông bí (tuỳ thích). Phụ liệu: khế chua, chuối chát, bún tươi.",
+    "instruction":" Mắm ruốc: Pha với 200ml nước lọc, khuấy tan, lọc qua rây để loại bỏ cặn. Sả: Đập dập, cắt khúc. Rau: Rửa sạch, để ráo. Làm nước lẩu: Phi thơm tỏi, hành tím, và ớt băm trong dầu ăn. Thêm sả vào đảo đều. Cho nước dừa tươi và mắm ruốc đã lọc vào, khuấy đều. Nêm gia vị: 1 thìa đường, 1/2 thìa hạt nêm, 1 thìa nước mắm. Đun sôi và nêm lại cho vừa miệng. Hoàn thiện: Đặt nồi nước lẩu lên bếp nhỏ. Khi ăn, nhúng thịt bò lát mỏng vào nước lẩu, ăn cùng rau sống, bún, chuối chát, khế chua. Mẹo:Dùng nước dừa tươi giúp nước lẩu ngọt tự nhiên và thơm hơn.Chọn mắm ruốc loại ngon để hương vị lẩu đậm đà.Không để nước lẩu sôi mạnh khi nhúng bò để giữ độ mềm của thịt. ",
+    "imageUrl": "https://i.ibb.co/BVq7gJk/troi-lanh-lam-noi-lau-bo-nhung-mam-ruoc-nong-hoi-ca-nha-hup-xi-xup-khong-kip-tho-vi-qua-ngon-2420378.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 8,
+    "title": "Lẩu Sốt vang",
+    "category": 1,
+    "ingredients": "Thịt bò: 500g (chọn bắp bò hoặc gân bò). Rượu vang đỏ: 200ml. Cà chua: 3 quả, hành tây: 1 củ.Rau ăn kèm: rau cải thảo, rau cần, rau muống, cải xanh (tuỳ thích).Gia vị: hành tím, tỏi, gừng, quế, hồi, bột ngũ vị hương, bột cà ri, nước mắm, hạt nêm, tiêu, dầu điều.Nước dùng: 1.5 lít nước (hoặc nước hầm xương). Bún hoặc bánh mì: ăn kèm.",
+    "instruction":"Sơ chế:Thịt bò: Rửa sạch, chần sơ qua nước sôi với gừng để khử mùi. Thái miếng vừa ăn.Cà chua: Rửa sạch, bổ múi cau.Hành tây: Thái lát.Rau: Rửa sạch, để ráo.Ướp thịt với:1 thìa bột ngũ vị hương.1/2 thìa bột cà ri.1 thìa nước mắm.1/2 thìa hạt nêm, tiêu, 1 thìa dầu điều. Để ngấm 30 phút. Xào thịt bò:Phi thơm hành, tỏi với dầu ăn.Cho thịt bò vào xào săn, thêm rượu vang đỏ, đảo đều khoảng 5 phút.Nấu nước lẩu:Đổ nước dùng (hoặc nước hầm xương) vào nồi.Cho quế, hồi, cà chua, hành tây vào.Thêm thịt bò đã xào, nêm gia vị: nước mắm, hạt nêm, đường cho vừa miệng. Đun lửa nhỏ khoảng 20-30 phút để thịt mềm. Hoàn thiện:Khi ăn, đun sôi nồi lẩu.Nhúng rau ăn kèm và dùng với bún hoặc bánh mì. Mẹo:Dùng rượu vang đỏ giúp món lẩu dậy mùi thơm đặc trưng.Có thể thêm khoai tây, cà rốt để tăng độ bùi ngọt cho món ăn. ",
+    "imageUrl": "https://i.ibb.co/RjdGxJ8/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 9,
+    "title": "Lẩu gà lé é",
+    "category": 1,
+    "ingredients": "Gà: 1 con (khoảng 1.5kg, chọn gà ta). Lá é: 200g (loại lá é trắng).Nấm: 200g (nấm bào ngư, nấm kim châm hoặc tùy chọn).Măng tươi: 200g (hoặc măng chua).Rau ăn kèm: rau muống, bắp chuối, cải thảo (tuỳ thích).Nước dừa tươi: 1-2 quả.Gia vị: tỏi, hành tím, ớt, tiêu, nước mắm, hạt nêm, đường, muối.Phụ liệu: ớt xiêm xanh, bún tươi.",
+    "instruction":" Sơ chế:Gà: Làm sạch, chặt miếng vừa ăn.Lá é: Rửa sạch, chia làm 2 phần (1 phần nhặt lá non để ăn, 1 phần giã với muối để làm gia vị). Măng: Rửa sạch, luộc sơ nếu dùng măng tươi để loại bỏ chất đắng. Nấm và rau: Rửa sạch, để ráo.Ướp gà với:1 thìa hạt nêm.1/2 thìa nước mắm.1/2 thìa tiêu và 1 thìa tỏi băm.Trộn đều, để ngấm 20 phút. Nấu nước lẩu: Phi thơm tỏi, hành tím băm, thêm gà vào đảo săn.Đổ nước dừa tươi và thêm nước lọc đủ lượng nước lẩu.Đun sôi, hớt bọt, nêm gia vị: 1 thìa hạt nêm, 1/2 thìa muối, 1/2 thìa đường (nêm vừa miệng).Thả măng vào đun cùng. Hoàn thiện: Khi nước lẩu sôi, thả nấm, lá é và ớt xiêm giã vào. Đun nhỏ lửa để dậy mùi thơm đặc trưng của lá é. Thưởng thức:Ăn kèm bún tươi và rau sống.Lá é chỉ nên nhúng sơ để giữ độ giòn và mùi thơm. Mẹo:Lá é trắng có mùi thơm nhẹ, không nên nấu lâu để tránh bị đắng.Thêm vài lát ớt xiêm xanh để tăng độ cay đặc trưng.",
+    "imageUrl": "https://i.ibb.co/dbjVx2d/th.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 10,
+    "title": "bò kho nước dừa",
+    "category": 2,
+    "ingredients": "Thịt bò: 500g (chọn bắp bò hoặc gân bò).Nước dừa tươi: 1 quả (khoảng 300-400ml).Cà rốt: 2 củ (gọt vỏ, cắt khúc vừa ăn).Hành tím, tỏi: Băm nhỏ.Gia vị: dầu điều, bột bò kho (hoặc ngũ vị hương), nước mắm, đường, hạt nêm, tiêu, muối, bột năng (hoặc bột bắp).Phụ liệu: hoa hồi, quế, hành lá, ngò rí.",
+    "instruction":" Sơ chế:Thịt bò: Rửa sạch, cắt miếng vuông vừa ăn.Trụng qua nước sôi với gừng để khử mùi.Cà rốt: Rửa sạch, cắt khúc.Gia vị: Pha 2 thìa bột bò kho với chút nước lọc để sẵn. Ướp thịt bò:Ướp thịt bò với:1 thìa nước mắm, 1 thìa hạt nêm, 1 thìa bột bò kho, 1 thìa dầu điều, 1 thìa đường, tiêu.Trộn đều, để ngấm khoảng 20 phút. Nấu bò kho:Phi thơm hành tím, tỏi, cho thịt bò đã ướp vào xào săn.Đổ nước dừa tươi vào, thêm nước lọc nếu cần để ngập thịt.Thả hoa hồi, quế vào, đun nhỏ lửa khoảng 30-40 phút cho thịt bò mềm. Hoàn thiện:Khi thịt bò gần mềm, cho cà rốt vào nấu thêm 10 phút.Hòa 1-2 thìa bột năng (hoặc bột bắp) với nước, từ từ cho vào nồi để nước dùng sánh lại.Nêm nếm lại gia vị cho vừa miệng. Thưởng thức:Dọn ra tô, rắc hành lá, ngò rí và tiêu xay.Ăn kèm với bánh mì, bún hoặc cơm nóng. Mẹo:Nước dừa giúp bò kho có vị ngọt tự nhiên và thơm đặc trưng.Để thịt bò nhanh mềm, bạn có thể dùng nồi áp suất.Hoa hồi và quế chỉ nên dùng lượng nhỏ để tránh bị đắng.",
+    "imageUrl": "https://i.ibb.co/WKTD54p/1701488824-569-1-1596238357-78-width650height433-1701488825-width650height433.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 11,
+    "title": "Cá bạc má kho nước dừa",
+    "category": 2,
+    "ingredients": "Cá bạc má: 500g (mua cá tươi, làm sạch, cắt khúc vừa ăn).Cà chua: 3-4 quả (bổ múi cau).Hành tím: 2 củ (băm nhỏ).Tỏi: 2 tép (băm nhỏ).Gia vị: nước mắm, hạt nêm, đường, tiêu, dầu ăn.Dầu ăn: 2-3 thìa canh.Ớt tươi: 1-2 quả (tuỳ khẩu vị).Nước dừa tươi (tuỳ chọn): 1/2 quả (nếu có).",
+    "instruction":"Sơ chế:Cá bạc má: Rửa sạch, để ráo. Nếu cá lớn, cắt khúc vừa ăn.Cà chua: Cắt múi cau hoặc thái miếng vừa ăn.Hành tỏi: Băm nhỏ, ớt thái lát. Kho cá:Cho dầu ăn vào chảo, đun nóng.Phi thơm hành, tỏi, và ớt băm.Cho cà chua vào xào sơ đến khi cà chua mềm, ra nước.Thêm cá vào chảo, đảo đều.Nêm gia vị: 2 thìa nước mắm, 1/2 thìa hạt nêm, 1 thìa đường.Nếu thích, có thể thêm một ít nước dừa tươi để cá kho thêm ngọt và thơm. Kho cá:Đổ nước xâm xấp mặt cá, đậy nắp lại.Kho với lửa nhỏ trong khoảng 20-30 phút, thỉnh thoảng lật cá để cá thấm gia vị và không bị cháy.Khi nước trong chảo sệt lại, kiểm tra lại gia vị, nêm nếm lại cho vừa ăn. Hoàn thiện:Tắt bếp, rắc một ít tiêu lên trên món cá kho.Dọn ra đĩa, ăn cùng cơm trắng. Mẹo:Kho cá với nước dừa tươi giúp món ăn có vị ngọt tự nhiên và thơm.Nếu muốn cá kho thấm đều gia vị, có thể kho thêm một ít nước mắm vào giữa quá trình kho.",
+    "imageUrl": "https://i.ibb.co/qJG52SH/1678161235-917-6-1596238357-319-width640height480-1678161236-width640height480.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 12,
+    "title": "tóp mỡ rim chua ngọt",
+    "category": 2,
+    "ingredients": "Tóp mỡ: 500g (có thể mua tóp mỡ sẵn hoặc tự làm từ mỡ heo).Tỏi: 3 tép (băm nhỏ).Ớt: 1-2 quả (tùy khẩu vị, băm nhỏ).Gia vị: đường, nước mắm, giấm hoặc mẻ (nếu thích), hạt nêm, tiêu, dầu ăn",
+    "instruction":" Sơ chế:Tóp mỡ:Nếu chưa có tóp mỡ sẵn, bạn có thể tự làm từ mỡ heo. Cắt mỡ heo thành miếng nhỏ, chiên trong chảo đến khi mỡ chảy ra và tóp lại, vớt ra để ráo.Tỏi và ớt: Băm nhỏ. Làm nước sốt chua ngọt:Pha nước sốt gồm:2 thìa nước mắm.1 thìa giấm (hoặc mẻ).2 thìa đường.1/2 thìa hạt nêm.1/2 thìa tiêu.2-3 thìa nước lọc.Khuấy đều cho đường tan hết. Rim tóp mỡ: Cho một ít dầu ăn vào chảo, phi thơm tỏi và ớt băm. Cho tóp mỡ vào chảo, đảo đều đến khi tóp mỡ có màu vàng giòn và thơm. Đổ nước sốt chua ngọt vào, đảo đều. Rim với lửa nhỏ đến khi nước sốt sánh lại và thấm đều vào tóp mỡ. Hoàn thiện: Khi tóp mỡ đã giòn và thấm đều nước sốt, tắt bếp.Dọn ra đĩa, thưởng thức với cơm nóng hoặc dùng làm món nhậu. Mẹo: Nếu thích ăn cay, có thể thêm nhiều ớt hoặc sử dụng ớt bột. Điều chỉnh độ chua ngọt của nước sốt theo khẩu vị cá nhân",
+    "imageUrl": "https://i.ibb.co/w6GYGJm/5-mon-kho-rim-binh-dan-nhung-cuc-dam-da-troi-com-ai-thay-cung-thich-hon-ca-cac-mon-dat-tien-cach-lam.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 13,
+    "title": "nấm rơm kho đậu",
+    "category": 2,
+    "ingredients":"Nấm rơm: 300g (rửa sạch, để ráo). Đậu hũ (đậu phụ): 2 miếng (cắt miếng vuông vừa ăn). Hành tím: 2 củ (băm nhỏ). Tỏi: 2 tép (băm nhỏ). Gia vị: nước mắm, hạt nêm, đường, tiêu, dầu ăn, xì dầu (nếu thích). Ớt tươi (tuỳ khẩu vị): 1 quả. Nước dừa tươi (tuỳ chọn): 1/2 quả (nếu có).",
+    "instruction":" Sơ chế: Nấm rơm: Rửa sạch, cắt bỏ chân, ngâm với nước muối loãng khoảng 5-10 phút, rồi vớt ra để ráo.Đậu hũ: Cắt thành miếng vuông, có thể chiên sơ qua để đậu giòn hơn (tuỳ ý).Hành, tỏi: Băm nhỏ. Ớt: Thái lát (nếu dùng). Kho nấm và đậu:Cho dầu ăn vào chảo, phi thơm hành, tỏi băm.Cho nấm rơm vào xào nhanh khoảng 2-3 phút cho nấm mềm.Thêm đậu hũ vào chảo, đảo nhẹ tay. Nêm gia vị: 1 thìa nước mắm, 1/2 thìa hạt nêm, 1 thìa đường, 1/2 thìa tiêu.Nếu thích, bạn có thể thêm xì dầu để tạo màu và hương vị.Đổ thêm nước dừa (nếu có) hoặc nước lọc vào sao cho ngập khoảng 1/3 miếng đậu và nấm. Kho món ăn: Đun nấm và đậu với lửa nhỏ, kho khoảng 15-20 phút cho gia vị thấm đều, nước kho sánh lại.Nếu thích, có thể nêm lại gia vị cho vừa miệng. Hoàn thiện: Tắt bếp, rắc ớt thái lát lên trên (nếu có).Dọn ra đĩa và thưởng thức. Mẹo:Để món ăn thêm đậm đà, có thể cho một ít nấm hương hoặc nấm đông cô vào cùng. Bạn có thể thêm một ít hành lá hoặc ngò rí để món ăn thêm phần hấp dẫn.",
+    "imageUrl": "https://i.ibb.co/chs9WnR/cach-lam-nam-rom-kho-dau-ngon-hon-ca-thit-com-nau-nhieu-cung-het-1-1724593327-707-width780height796.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 14,
+    "title": "ba chỉ kho tiêu",
+    "category": 2,
+    "ingredients":"Ba chỉ heo: 500g (cắt khúc vừa ăn).Hành tím: 2 củ (băm nhỏ).Tỏi: 3 tép (băm nhỏ).Tiêu đen: 1-2 thìa (tùy khẩu vị).Nước mắm: 2 thìa.Đường: 1 thìa (hoặc đường phèn nếu thích).Nước dừa tươi (tuỳ chọn): 1/2 quả.Gia vị khác: hạt nêm, tiêu, dầu ăn.Ớt tươi: 1 quả (tuỳ khẩu vị).",
+    "instruction":"Sơ chế: Ba chỉ heo: Rửa sạch, cắt thành miếng vừa ăn.Hành, tỏi: Băm nhỏ. Ớt: Thái lát (nếu dùng). Ướp ba chỉ: Ướp thịt ba chỉ với: 2 thìa nước mắm. 1 thìa hạt nêm. 1 thìa đường. 1/2 thìa tiêu. Trộn đều và để ngấm khoảng 20-30 phút. Kho ba chỉ:Cho một ít dầu ăn vào chảo, phi thơm hành, tỏi băm.Cho ba chỉ vào xào sơ cho thịt săn lại. Thêm nước dừa vào, nếu không có nước dừa, bạn có thể dùng nước lọc.Đun nhỏ lửa cho ba chỉ thấm gia vị và mềm. Hoàn thiện: Sau khi kho khoảng 30-40 phút, nước kho sệt lại, thịt ba chỉ mềm và thấm đều gia vị. Thêm tiêu đen vào, đảo đều.Tắt bếp, rắc thêm ớt thái lát lên trên nếu muốn món ăn thêm cay. Thưởng thức: Dọn ba chỉ kho tiêu ra đĩa, ăn với cơm trắng hoặc bún. Mẹo:Để món ba chỉ kho tiêu thêm thơm, bạn có thể rang tiêu trước khi cho vào kho.Nếu thích món ăn có độ ngọt tự nhiên, bạn có thể sử dụng đường phèn thay đường trắng.",
+    "imageUrl": "https://i.ibb.co/m6Rm1sR/thit-kho-tieu-dam-da-beo-ngay-nhung-khong-he-ngan-ngay-0-1-n-1722522918-434-width780height685.jpg",
+    "isFavorite": true
+  },
+  {
     "id": 15,
     "title": "Tôm chiên xù",
     "category": 3,
@@ -153,6 +288,141 @@
     "instruction": "",
     "imageUrl": "https://i.ibb.co/hW0cTPC/chao-hau-1237966.jpg",
     "isFavorite": false
+  },
+  {
+    "id": 30,
+    "title": "Xôi gấc",
+    "category": 6,
+    "ingredients": "Quả gấc: 200gr, nếp bắc: 2 bát, đường: 1 muỗng canh, nước cốt dừa: 150ml, muối: 1/2 muống cà phê, rượi trắng: 5ml",
+    "instruction": "1 Sơ chế nguyên liệu: Ngâm nếp qua đêm hoặc ít nhất là 4 tiếng với một ít muối.Bổ đôi quả gấc để lấy thịt gấc. 2 Làm hỗn hợp xôi: Bóp cho phần thịt gấc bong ra khỏi hạt gấc rồi đem trộn với 1 thìa rượu trắng. Lấy phần thịt gấc mới trộn với rượu để đem trộn với nếp cùng với một ít muối. Trong quá trình đó bạn cho thêm một ít nước cốt dừa vào cho thơm. Lượng nhiều hay ít tùy theo sở thích. 3 Hấp xôi: Đem hỗn hợp vừa trộn cho vào xửng hấp của nồi cơm điện, hấp trong vòng 35 – 40 phút. Lúc này, món xôi gấc của bạn coi như hoàn thành. Bạn có thể thêm một lượng đường vừa ăn với mình để xôi dễ ăn hơn.",
+    "imageUrl": "https://i.ibb.co/wSJbZT4/xoigac.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 31,
+    "title": "Xôi đậu xanh",
+    "category": 6,
+    "ingredients": "Gạo nếp: 500g, Đậu xanh bỏ vỏ: 200g, Dầu ăn, muối hạt",
+    "instruction": "Gạo nếp vo sơ cho sạch bớt bụi bẩn và cho vào ngấm nước từ 6-8h cho gạo nở mềm. Đậu xanh cho vào ngâm nước khoảng 4h cho đậu xanh nở hết. Sau khi gạo và đậu xanh đã ngâm nở, vớt gạo và đậu xanh lên, trộn vào với nhau và vo lại vài lần với nước cho thật sạch, để ráo. Trộn đều vào gạo nếp 2 thìa cà phê muối hạt, trộn đều cho gạo và đậu xanh ngấm muối. Chuẩn bị nồi nước sôi hấp cách thủy, cho gạo nếp trộn đậu xanh vào đồ cho chín trong khoảng 30 phút. Sau 30 phút, xôi đậu xanh đã chín mềm, các bạn xới đều phần xôi trong nồi lên, dùng 50ml dầu ăn tưới đều vào xôi, đánh tơi ra cho xôi ngấm dầu và tiếp tục đồ xôi thêm khoảng 10 phút nữa cho hạt xôi ngấm dầu, căng mọng. Xới xôi đậu xanh ra đĩa, tùy sở thích có thể dùng kèm với ruốc thịt, muối vừng hay món thịt xá xíu, thịt quay hoặc thịt rang hành đều rất hợp.",
+    "imageUrl": "https://i.ibb.co/6gqnHYd/xoidau.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 32,
+    "title": "Xôi xéo",
+    "category": 6,
+    "ingredients": "Gạo nếp: 500 gr,  Đậu xanh xát vỏ:  200 gr, Bột nghệ: 10 gr, Hành tím: 100 gr",
+    "instruction": "Hành tím bóc vỏ, rửa sạch, cắt lát mỏng. Cho mỡ heo vào nồi rồi nấu trên lửa vừa sôi, tiếp đến bạn cho hành vào đảo, thấy mỡ tóp lại và ngả hơi vàng thì tắt bếp. Tiếp theo, bạn vớt hành ra giấy thấm dầu và lọc phần nước mỡ để riêng. Gạo nếp vo thật sạch đến khi nước trong. Ngâm gạo cùng 1 muỗng cà phê muối và 10gr bột nghệ trong nước từ 6 - 8 tiếng. Sau đó, vớt gạo nếp ra để ráo nước. Kế đến, bạn trải khăn vào nồi cơm điện, đổ nước vào nồi. Bật chế độ hấp, sau 30 phút kiểm tra thấy xôi chín dẻo là được, lúc xôi gần chín thì bạn cho thêm một ít nước mỡ lúc phi hành cho xôi béo hơn. Đậu xanh rửa thật sạch, cho 1 muỗng cà phê muối vào đậu xanh và ngâm trong nước khoảng 2 - 3 tiếng thì vớt ra, để ráo. Tiếp theo, cho đậu xanh vào nồi cơm điện, đổ nước vào nồi để chế độ hấp. Sau khi hấp được 20 phút thì lấy ra, dùng muỗng nghiền nát. Thêm 5 muỗng mỡ từ hành phi vào, trộn đều, nắm tròn lại, khi ăn sẽ dùng dao bào mỏng. Bày ra dĩa hoặc mẹt có lót lá chuối xanh, cắt đậu xanh lên trên, rắc hành phi.",
+    "imageUrl": "https://i.ibb.co/nBZ2kb7/xoixeo.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 33,
+    "title": "Xôi hạt sen",
+    "category": 6,
+    "ingredients": "Gạo nếp: 500 gr, Hạt sen: 200 gr, Dừa(đã nạo sợi): 100 gr,  Đường cát: 2 muỗng canh, Muối: 1/3 muỗng cà phê",
+    "instruction": "Gạo nếp vo sơ cho sạch bớt bụi bẩn và cho vào ngấm nước từ 6-8h cho gạo nở mềm. Hạt sen tươi mua về bạn tách vỏ, tách nhị, rửa sạch tránh làm đắng hạt nếu còn nhị vương lại. Tiếp đến, hầm hạt sen với lượng nước xâm xấp ở lửa vừa cho đến khi sen chín mềm thì vớt ra ngâm ngay vào nước lạnh. Đối với loại sen khô trong siêu thị, bạn cần ngâm nước tầm 2 tiếng trước khi bắt đầu hầm. Dừa nạo sợi nhỏ bạn đem trộn chung với 2 muỗng canh đường cát rồi ướp khoảng 1 tiếng, sau đó sên qua trong chảo ở lửa nhỏ cho đến khi sợi dừa trong hơn là được. Trộn đều gạo nếp đã sơ chế cùng hạt sen hầm và 1/3 muỗng cà phê muối rồi cho lên xửng hấp của nồi cơm điện. Đổ nước vào phía dưới nồi và cắm điện như bình thường, nấu xôi trong khoảng 20 phút là hoàn thành.",
+    "imageUrl": "https://i.ibb.co/GRhpwZP/xoihatsen.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 34,
+    "title": "Xôi xắn(Xôi khoai mỳ)",
+    "category": 6,
+    "ingredients": "Khoai mì 450 gr, Nếp 450 gr, Đậu phộng rang 80 gr, Mè trắng rang 2 muỗng canh, Mè đen rang 2 muỗng canh, Hành lá 5 nhánh, Hành tím 100gr, Đường/ muối 1 ít",
+    "instruction": "Cho 450gr nếp vào thau nhỏ vo với nước sạch, vo nhẹ để tránh mất hết các vitamin ở trong nếp. Vo trong khoảng 4 - 5 lần cho đến khi thấy nước trong hơn. Sau đó, cho nước nóng vào ngâm với nếp trong khoảng 15 phút cho nếp mềm hơn. Khoai mì chúng ta gọt sạch vỏ, rửa với nước sạch, tiếp theo cắt thành các miếng nhỏ có kích thước khoảng 1 lóng tay. Ngâm với nước để loại bỏ phần mủ của khoai. Hành tím ta bóc vỏ, rửa sạch, băm nhỏ rồi đem phi thơm. Hành lá rửa sạch, xắt nhỏ. Cho nếp vào nồi, cho 1 muỗng cà phê đường, 1/2 muỗng cà phê muối vào nếp, cho 260ml nước nóng vào nồi chứa nếp, cho nước ngập hơn nếp khoảng 1/4 lóng tay (dùng nước nóng để sôi nhanh chín hơn). Cho toàn bộ khoai mì đã cắt nhỏ vào chung với nồi nếp, tiếp theo cho 2 muỗng canh dầu ăn hành tím phi lúc nãy vào cho sôi có độ bóng và mềm, lắc đều để nước và dầu phủ đều hỗn hợp, sau đó cho vào nồi áp suất để nấu. Cho chảo lên bếp, cho 2 muỗng canh dầu ăn vào, thêm 1 ít muối và đợi dầu nóng. Sau đó, cho hành lá cắt nhỏ vào rồi đảo đều, khi hành hơi teo lại, thấm dầu bóng, đẹp là được. Cho 2 muỗng canh mè trắng, 2 muỗng canh mè đen, 1 ít đậu phộng rang bóc vỏ, 1 muỗng cà phê muối, 4 muỗng canh đường vào túi ni - lông trong. Sau đó giã dập hỗn hợp này và trộn đều. Khi nồi áp suất đã hoàn thành thời gian nấu, ta tắt nồi và mở nắp, cho xôi ra ngoài, phết mỡ hành, cho hành phi, rải đều muối mè trên bề mặt của xôi và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/hLNpGN7/xoixan.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 35,
+    "title": "Gà nướng muối ớt",
+    "category": 7,
+    "ingredients": "Gà ta(khoảng 1 - 1.2kg) 1 con, Lá chanh 20 lá, Ớt sừng băm nhuyễn 5 trái",
+    "instruction": "Gà mua về dùng muối chà sát toàn bộ cho khử mùi hôi, rửa sạch, để ráo. Trộn đều các gia vị để ướp gà, bao gồm: 5 trái ớt sừng đỏ băm nhuyễn, 1 muỗng cà phê bột ngọt, 2 muỗng cà phê muối, 1 muỗng cà phê tiêu, 1 muỗng cà phê rượu trắng, 1 củ tỏi băm nhuyễn, 3 muỗng cà phê dầu ăn, 1/2 muỗng cà phê ớt bột. Ướp gà vào hỗn hợp gia vị và để trong vòng 1 giờ đồng hồ cho gia vị thấm vào thịt gà. Làm nóng lò trước khi nướng khoảng 15 phút với nhiệt độ 200 độ C. Sau đó cho gà vào nướng khoảng 1 tiếng là gà chín. Gà nướng muối ớt dùng chung với lá chanh thái sợi sẽ góp phần làm cho món ăn thêm ngon.",
+    "imageUrl": "https://i.ibb.co/CzG5hjX/ganuong.png",
+    "isFavorite": true
+  },
+  {
+    "id": 36,
+    "title": "Gà nướng mật ong",
+    "category": 7,
+    "ingredients": "Gà ta 1 con(khoảng 1kg - 1.5kg), Mật ong 3 muỗng cà phê, Dầu hào 2 muỗng cà phê, Hành khô 1 củ, Tỏi 1 củ, Ngũ vị hương, Tiêu",
+    "instruction": "Mua gà đã làm sẵn, rửa sạch bụng gà, dùng muối chà xát xung quanh để khử mùi hôi. Chặt phần cổ và chân để riêng, dùng dao xẻ theo chiều dọc xuống ngay phần ức gà rồi tiếp tục lấy chỗ sống lưng của cây dao dần vào xương gà để khi nướng thì có thể đặt gà này nằm ngay ngắn ở trên chiếc khay. Hành, tỏi bóc vỏ, đập dập rồi băm nhỏ. Cho hết gia vị bao gồm bột nêm, ngũ vị hương, tiêu, dầu hào vào chén nhỏ rồi trộn đều cho các gia vị hòa quyện vào nhau. Rưới hỗn hợp gia vị lên khắp con gà (trong và ngoài). Bạn dùng bao tay chà xát cho gia vị thấm đều vào thịt, rồi để thịt gà thấm vị trong khoảng 1 tiếng. Đối với hành khô băm nhuyễn, bạn không nên để dính trên phần thân và da gà. Nên lắc đều con gà để cho hành rơi hết xuống, tránh lãng phí bạn có thể nhét phần hành này vào bụng gà. Nếu bạn để hành trên bề mặt da, khi nướng sẽ nhanh cháy, có mùi khét làm cho món thịt gà nướng không thơm ngon. Bật lò vi sóng ở nhiệt độ 200 độ C trong khoảng 15 phút. Bạn lót tấm bạc lên khay rồi cho gà lên, đặt ngay ngắn. Nướng gà trong khoảng 10 phút. Sau đó, lấy gà ra và quét thêm 1 lớp mật ong xung quanh bên ngoài con gà, tiếp tục nướng thêm trong khoảng 10 phút là hoàn tất món ăn.",
+    "imageUrl": "https://i.ibb.co/87KMJDT/ganuongmatong.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 37,
+    "title": "Gà nướng tiêu xanh",
+    "category": 7,
+    "ingredients": "Gà ta 1 con(khoảng 1kg - 1.5kg), Tiêu đen xay nhuyễn 2 muỗng canh, Dầu oliu",
+    "instruction": "Nhặt bỏ hết những chiếc lông còn sót lại, dùng muối chà xát toàn bộ con gà. Rửa sạch và để ráo. Đặt gà lên vỉ nướng sẵn, ở dưới là khay thủy tinh để đựng phần gia vị bị rớt xuống. Cho dầu oliu trực tiếp lên thân con gà, dùng tay xoa đều dầu lên mọi phần da và bên trong bụng.Tiếp tục ướp thịt gà cùng với gói gia vị hoặc bột nêm. Thoa đều gia vị lên da, tránh để chỗ đậm chỗ nhạt. Cuối cùng là ướp gà cùng với tiêu xay nhuyễn. Đặt gà trên khay khoảng 60 phút cho ngấm đều gia vị. Làm nóng lò vi sóng trước khi nướng khoảng 15 phút với nhiệt độ 200 độ C. Cho khay thịt gà ướp tiêu vào trong lò. Trong lúc nướng bạn cần chú ý xem phần da gà bên ngoài chuyển màu như thế nào. Nếu chuyển màu vàng ươm đẹp mắt, da giòn là thịt gà đã chín. Thường thường để gà nguyên con nướng bằng lò sẽ mất khoảng 1 giờ đồng hồ. ",
+    "imageUrl": "https://i.ibb.co/svByZ4H/ganuongtieuxanh.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 38,
+    "title": "Vịt nướng muối ớt",
+    "category": 7,
+    "ingredients": "Vịt 1 con, Tỏi(băm nhỏ) 1 muỗng canh, Gừng(băm nhỏ) 1 muỗng canh, Sốt ướp xá xíu 1 gói 70gr, Tương ớt 1 muỗng canh, Sa tế 1 muỗng canh, Ớt bột 2 muỗng canh, Gia vị thông dụng(Đường/ muối/ hạt nêm/ bột ngọt/..) 1 ít",
+    "instruction": "Vịt mua về đem mổ, loại bỏ hết lông và lông tơ, rửa sạch với nước. Sau đó, mở phần bụng vịt ra, loại bỏ hết nội tạng. Chà xát muối nhẹ nhàng toàn bộ thân vịt để loại bỏ mùi hôi. Sau đó rửa sạch và để vịt ráo nước. Ướp thịt vịt với 1 muỗng cà phê hạt nêm, 1 muỗng cà phê muối, 1 muỗng cà phê đường, 1 muỗng cà phê bột ngọt, 1 muỗng canh tương ớt, 1 muỗng canh dầu màu điều, 1 muỗng canh sa tế. Thêm vào 1 muỗng canh mỗi loại: tỏi, hành tím, gừng băm nhuyễn vào, cho vào 1 gói sốt ướp xá xíu (chừa lại khoảng 2 muỗng canh để sử dụng sau). Sau cùng, trộn đều hỗn hợp gia vị cho thấm đều vào thịt vịt, cả trong lẫn ngoài, để yên trong khoảng 1 tiếng để thịt thấm đều gia vị. Cho vịt lên vỉ và bắt đầu nướng, trở mặt thịt vịt thường xuyên để tránh cháy khét, nướng đến khi thịt vịt vàng đều cả 2 mặt. Lúc này bạn có thể phết đều phần nước sốt ướp xá xíu còn giữ lại trước đó lên toàn bộ thân vịt, nước sốt giúp vịt bóng mướt, giữ cho thịt ẩm mà không bị khô. Sau cùng rắc hết ớt bột lên trên mặt vịt là hoàn thành.",
+    "imageUrl": "https://i.ibb.co/F67xjRR/vit.webp",
+    "isFavorite": true
+  },
+  {
+    "id": 39,
+    "title": "Sườn nướng ngũ vị",
+    "category": 7,
+    "ingredients": "Sườn non 700 gr, Bột ngũ vị hương 1.5 gr(khoảng 1/4 muỗng cà phê), Tỏi(băm nhỏ) 3 tép, Hành tím(băm nhỏ) 3 củ, Tương cà 2 muỗng canh, Mật ong 2 muỗng canh, Dầu sa tế 3 muỗng canh, Hạt nêm/ Muối 1 ít",
+    "instruction": "Sườn non mua về, bạn rửa sườn thật sạch với nước. Để khử mùi cho sườn, bạn chần sơ qua với một nồi nước sôi pha thêm 1 muỗng canh muối khoảng 5 phút, sau đó vớt ra đem đi rửa lại với nước rồi để ráo. Bạn ướp sườn với phần tỏi băm, hành tím băm, 1 muỗng cà phê hạt nêm, 1 muỗng cà phê muối, 2 muỗng canh mật ong, 2 muỗng canh tương cà, 1.5gr bột ngũ vị hương (khoảng 1/4 muỗng cà phê) và 3 muỗng canh dầu sa tế rồi trộn đều. Để thịt sườn thấm đậm đà, bạn ướp sườn với gia vị ít nhất 4 tiếng. Sau 4 tiếng, bạn gắp sườn ra khay nướng đã lót sẵn giấy bạc. Tiếp đến, bạn dùng cọ quét 1 lớp nước sốt ướp lên các miếng sườn. Bạn đem sườn đi nướng lần 1 ở nhiệt độ 200 độ trong 20 phút. Sau lần nướng thứ 1, bạn lật mặt sườn lại rồi tiếp tục dùng cọ quét lớp nước sốt lên và nướng lần 2 ở nhiệt độ 200 độ trong 10 phút. Bày sườn ra đĩa và thưởng thức",
+    "imageUrl": "https://i.ibb.co/74vqnc6/suon.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 40,
+    "title": "Tôm hấp miến",
+    "category": 8,
+    "ingredients": "11 con tôm, 1 bịch miến tươi, 3 mc nước tương, 1 mc dầu hào, 1/2 mc tương ớt, 1 mc đường, 3 mc nước, 1 trái ớt sừng, 2 tép tỏi, 2 tép hành lá",
+    "instruction": "Rã đông tôm, lột vỏ rửa qua nước gừng cho thơm.rửa miến để ráo rồi cuộn thành những cuộn tròn để vào dĩa. Tôm lột vỏ chừa phần đầu và đuôi xếp vào những cuộn tròn của dĩa miến, phần giữa mình để 3 con xong đem hấp. Làm chén sốt,cho những thứ trên vào cùng một chén quậy đều,tỏi và ớt xắt khúc cùng hành lá. Hấp chín tôm cho sốt vào hấp tiếp 3 phút, nhắc xuống cho ngò vào trang trí.",
+    "imageUrl": "https://i.ibb.co/WWbHL15/tomhap.webp",
+    "isFavorite": true
+  },
+  {
+    "id": 41,
+    "title": "Mực hấp gừng",
+    "category": 8,
+    "ingredients": "Mực: 500g, Gừng: 100g, Hành tím: 50g, Hành lá: 20g, Ớt: 2 trái, Tỏi: 1 củ, Chanh: 1 trái, Rượu trắng: 60ml, Gia vị cơ bản: hạt nêm, bột ngọt, nước mắm, đường",
+    "instruction": "Hành lá cắt khúc vừa ăn khoảng 5cm, gừng gọt vỏ rồi rửa sạch, thái chỉ, ớt cắt lát mỏng. Ướp mực với 1 thìa hạt nêm, ½ thìa bột ngọt, 1 thìa nước mắm trong 20 phút để mực ngấm gia vị. Sau khi mực đã ngấm gia vị, bạn trộn mực chung với gừng và ớt đã thái trước đó, xếp mực ra dĩa có lòng sâu rồi cho mực lên khay hấp thuỷ nhiệt, cài đặt thời gian khoảng 10 phút để mực chín vừa tới. Không nên hấp quá  lâu sẽ khiến mực bị dai, không còn độ giòn tự nhiên của mực nữa. Pha nước chấm: cho 1 chút tỏi băm, gừng vào chén, thêm 5 thìa nước mắm, 2 thìa nước cốt chanh, khuấy đều và cho thêm 1 chút ớt là bạn đã có ngay chén nước chấm thơm ngon rồi.",
+    "imageUrl": "https://i.ibb.co/bKswzY1/muc.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 42,
+    "title": "Mướp nhồi tôm thịt hấp",
+    "category": 8,
+    "ingredients": "Mướp: 1 trái. Lưu ý nên chọn trái nhỏ, thon dài, đặc ruột, Tôm: 150g, Thịt băm: 100g, Hành củ, bột nêm, tiêu, dầu hào, bột năng",
+    "instruction": "Tôm bạn bóc đầu, lột vỏ, bỏ chỉ đen, bằm nhỏ, chỉ chừa lại phần đuôi tôm để trang trí. Hành củ bóc vỏ, rửa sạch, đập dập rồi băm nhỏ. Ướp tôm, thịt cùng hành củ đã băm nhỏ, 1 chút hạt nêm, tiêu và đợi 10-15 phút cho ngấm gia vị. Mướp gọt vỏ, rửa sạch, cắt khúc tầm 3-4cm, dùng dao khoét bỏ phần ruột trắng bên trong. Nhồi phần tôm thịt đã chuẩn bị vào khoanh mướp, phía trên trang trí phần đuôi cho đẹp mắt hơn. Cho mướp đã nhồi tôm thịt vào khay hấp thuỷ nhiệt, cài đặt thời gian là 15-20 phút tuỳ theo độ to hay nhỏ của khoanh mướp. Pha nước sốt: bạn tận dụng phần nước ngọt trong khi hấp mướp, thêm dầu hào, chút gia vị và xíu bột năng, cho vào chảo đun sôi cho sệt lại. Cuối cùng rưới nước sốt lên phần mướp hấp tôm thịt. ",
+    "imageUrl": "https://i.ibb.co/Jjz4HYz/muop.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 43,
+    "title": "Cá hấp hành gừng",
+    "category": 8,
+    "ingredients": "Cá: 1 con tuỳ thích khoảng 1kg, Ớt: 2 quả, Tỏi: 10g, Muối, Xì dầu: 15ml, Dấm trắng:  15ml, Rượu: 15ml",
+    "instruction": "Cá rửa sạch, dùng khăn giấy thấm khô nước. Pha hỗn hợp gồm dấm, muối, khuấy cho tan đều. Xếp cá lên dĩa, rắc hành, tỏi, gừng và rưới rượu cùng hỗn hợp dấm muối đã pha lên cá. Ướp trong 10 phút cho thấm đều gia vị. Sau khi cá đã thấm gia vị cho dĩa cá lên khay hấp của nồi hấp thuỷ nhiệt và hấp chín trong 5-10 phút. Bạn có thể dùng kèm với xì dầu cho món cá thêm đậm đà hơn nhé!",
+    "imageUrl": "https://i.ibb.co/ZBqhPDP/cahap.jpg",
+    "isFavorite": true
+  },
+  {
+    "id": 44,
+    "title": "Vịt hấp muối",
+    "category": 8,
+    "ingredients": "Vịt: nửa con, Gạo nếp, gạo tẻ: ½ chén, Đậu xanh, Bột chiên giòn, Lòng đỏ trứng, Gừng, Rượu trắng, Sả, Mật ong, Các gia vị: muối, hạt nêm,...",
+    "instruction": "Bước đầu tiên là bạn hãy rang gạo nếp, gạo tẻ, đậu xanh và muối. Đảo đều tay cho đến khi các nguyên liệu có màu vàng và mùi thơm. Cắt sả thành từng khúc nhỏ, cho vào chảo rang cùng. Vịt bạn rửa sạch, rửa lại với muối hoặc chanh để khử mùi hôi, để ra rổ cho ráo nước. Ướp vịt với gừng, mật ong, hạt nêm trong khoảng 20-30 phút. Sau khi vịt đã ngấm gia vị, cho vịt lên khay hấp thuỷ nhiệt, hấp trong khoảng 30 phút. Bạn có thể kiểm tra xem thịt vịt đã chín chưa bằng cách dùng đũa đâm vào phần đùi vịt. Nếu thịt vịt đã chín sẽ không còn nước màu hồng nữa. Tắt bếp và đậy nắp để tầm 5 phút rồi lấy thịt vịt ra chặt thành miếng vừa ăn.",
+    "imageUrl": "https://i.ibb.co/JjTHvGb/vit.jpg",
+    "isFavorite": true
   }
 
 ]

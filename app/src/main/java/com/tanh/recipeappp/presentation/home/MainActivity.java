@@ -41,18 +41,19 @@ public class MainActivity extends AppCompatActivity {
         //init
         init();
 
+        loadData();
+
         //set menu
-        HomeFragment homeFragment = new HomeFragment(appContainer);
-        makeCurrentFragment(homeFragment);
+        makeCurrentFragment(new HomeFragment());
 
         binding.bottomNavigationView.setOnItemSelectedListener((menuItem) -> {
             int itemSelected = menuItem.getItemId();
             if(itemSelected == R.id.dish) {
-                makeCurrentFragment(new HomeFragment(appContainer));
+                makeCurrentFragment(new HomeFragment());
             } else if(itemSelected == R.id.favorite) {
-                makeCurrentFragment(new FavoriteFragment(appContainer));
+                makeCurrentFragment(new FavoriteFragment());
             } else if(itemSelected == R.id.menu) {
-                makeCurrentFragment(new MenuFragment(appContainer));
+                makeCurrentFragment(new MenuFragment());
             }
             return true;
         });
@@ -64,6 +65,18 @@ public class MainActivity extends AppCompatActivity {
                 .commit();
     }
 
+    private void loadData() {
+
+        SharedPreferences sharedPreferences = this.getSharedPreferences("login", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        boolean status = sharedPreferences.getBoolean("status", false);
+        if(!status) {
+            editor.putBoolean("status", true);
+            editor.apply();
+            recipeViewModel.loadData(this.getApplicationContext());
+        }
+
+    }
 
 
     public void init() {

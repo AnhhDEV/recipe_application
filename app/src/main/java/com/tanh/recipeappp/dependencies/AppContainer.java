@@ -10,6 +10,8 @@ import com.tanh.recipeappp.data.database.MDatabase;
 import com.tanh.recipeappp.data.repository.MenuRepository;
 import com.tanh.recipeappp.data.repository.RecipeRepository;
 
+import java.io.Serializable;
+
 public class AppContainer {
 
     private final Application application;

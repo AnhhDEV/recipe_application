@@ -1,18 +1,21 @@
 package com.tanh.recipeappp.presentation.adapter;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.tanh.recipeappp.R;
 import com.tanh.recipeappp.data.database.Menu;
 import com.tanh.recipeappp.data.database.Recipe;
+import com.tanh.recipeappp.presentation.detail_menu.DetailMenuActivity;
 import com.tanh.recipeappp.presentation.home.MenuViewModel;
 
 import java.util.ArrayList;
@@ -49,7 +52,6 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull MenuAdapter.MyViewHolder holder, int i) {
 
-
         Menu currentMenu = list.get(i);
         int position = holder.getAdapterPosition();
         //up  data
@@ -77,9 +79,17 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
                             list.add(position, currentMenu);
                             notifyItemInserted(position);
                         }
-                    });
+                    })
+                    .show();
         });
 
+        //navToDetailMenu
+        CardView cardView = holder.itemView.findViewById(R.id.my_menu);
+        cardView.setOnClickListener(view -> {
+            Intent intent = new Intent(view.getContext(), DetailMenuActivity.class);
+            intent.putExtra("menuId", currentMenu.getId());
+            view.getContext().startActivity(intent);
+        });
     }
 
     private String getRecipes(List<Recipe> list) {

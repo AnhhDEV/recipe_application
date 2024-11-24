@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.tanh.recipeappp.R;
 import com.tanh.recipeappp.data.database.Recipe;
-import com.tanh.recipeappp.presentation.detail.DetailActivity;
+import com.tanh.recipeappp.presentation.detail_recipe.DetailActivity;
 import com.tanh.recipeappp.presentation.home.RecipeViewModel;
 
 import java.util.ArrayList;
