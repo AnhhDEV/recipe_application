@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.result.ActivityResultLauncher;
@@ -80,26 +81,30 @@ public class InsertActivity extends AppCompatActivity {
 
     private void insertRecipe() {
         binding.btnSave.setOnClickListener(view -> {
-            String ingredients = binding.etIngredients.getText().toString();
-            String instruction = binding.etInstruction.getText().toString();
-            String title = binding.etTitle.getText().toString();
+            if(currentUri == null) {
+                Toast.makeText(this, "Vui lòng chọn ảnh", Toast.LENGTH_SHORT).show();
+            } else {
+                String ingredients = binding.etIngredients.getText().toString();
+                String instruction = binding.etInstruction.getText().toString();
+                String title = binding.etTitle.getText().toString();
 
-            recipeViewModel.getMaxId().observe(this, currentId -> {
-                if (isAddingRecipe) return;
+                recipeViewModel.getMaxId().observe(this, currentId -> {
+                    if (isAddingRecipe) return;
 
-                isAddingRecipe = true;
-                Log.d("recipeId", "id " + currentId);
-                Recipe recipe = new Recipe(currentId + 1, title, categoryId, ingredients, instruction, currentUri.toString(), false);
-                recipeViewModel.insertRecipe(recipe);
+                    isAddingRecipe = true;
+                    Log.d("recipeId", "id " + currentId);
+                    Recipe recipe = new Recipe(currentId + 1, title, categoryId, ingredients, instruction, currentUri.toString(), false);
+                    recipeViewModel.insertRecipe(recipe);
 
-            });
+                });
 
-            binding.etTitle.setText("");
-            binding.etIngredients.setText("");
-            binding.etInstruction.setText("");
+                binding.etTitle.setText("");
+                binding.etIngredients.setText("");
+                binding.etInstruction.setText("");
 
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+            }
         });
     }
 
