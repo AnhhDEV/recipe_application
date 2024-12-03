@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,17 +20,21 @@ import com.tanh.recipeappp.data.database.Recipe;
 import com.tanh.recipeappp.presentation.detail_recipe.DetailActivity;
 import com.tanh.recipeappp.presentation.home.RecipeViewModel;
 
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
-public class RecipesAdapter extends RecyclerView.Adapter<RecipesAdapter.MyViewHolder> {
+public class RecipesAdapter extends RecyclerView.Adapter<RecipesAdapter.MyViewHolder> implements Filterable {
 
     private RecipeViewModel recipeViewModel;
     private List<Recipe> recipes = new ArrayList<>();
+    private List<Recipe> recipesSearch;
 
     public RecipesAdapter(RecipeViewModel recipeViewModel, List<Recipe> recipes) {
         this.recipes = recipes;
         this.recipeViewModel = recipeViewModel;
+        this.recipesSearch = new ArrayList<>(recipes);
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -96,7 +102,43 @@ public class RecipesAdapter extends RecyclerView.Adapter<RecipesAdapter.MyViewHo
     @SuppressLint("NotifyDataSetChanged")
     public void changeList(List<Recipe> list) {
         this.recipes = list;
+        recipesSearch = new ArrayList<>(list);
         notifyDataSetChanged();
     }
 
+    @Override
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence constraint) {
+                List<Recipe> filteredList = new ArrayList<>();
+                if (constraint == null || constraint.length() == 0) {
+                    filteredList.addAll(recipesSearch);
+                } else {
+                    String filterPattern = removeDiacritics(constraint.toString().toLowerCase().trim());
+                    for (Recipe recipe : recipesSearch) {
+                        if (removeDiacritics(recipe.getTitle().toLowerCase()).contains(filterPattern)) {
+                            filteredList.add(recipe);
+                        }
+                    }
+                }
+                FilterResults results = new FilterResults();
+                results.values = filteredList;
+                return results;
+            }
+
+            @Override
+            protected void publishResults(CharSequence constraint, FilterResults results) {
+                recipes.clear();
+                recipes.addAll((List) results.values);
+                notifyDataSetChanged();
+            }
+        };
+    }
+
+    public static String removeDiacritics(String input) {
+        if (input == null) return "";
+        String normalized = Normalizer.normalize(input, Normalizer.Form.NFD);
+        return Pattern.compile("\\p{InCombiningDiacriticalMarks}+").matcher(normalized).replaceAll("");
+    }
 }

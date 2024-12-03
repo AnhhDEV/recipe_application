@@ -16,6 +16,10 @@
         android:theme="@style/Theme.RecipeAppp"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.search.SearchActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
             android:name=".presentation.detail_menu.DetailMenuActivity"
             android:exported="false" />
         <activity

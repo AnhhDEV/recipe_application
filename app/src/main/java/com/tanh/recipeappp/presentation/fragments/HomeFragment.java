@@ -19,6 +19,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.SearchView;
 
 import com.tanh.recipeappp.R;
 import com.tanh.recipeappp.RecipeApplication;
@@ -29,6 +30,7 @@ import com.tanh.recipeappp.presentation.adapter.RecipesAdapter;
 import com.tanh.recipeappp.presentation.home.RecipeViewModel;
 import com.tanh.recipeappp.presentation.insert_recipe.InsertActivity;
 import com.tanh.recipeappp.presentation.recipes.RecipesActivity;
+import com.tanh.recipeappp.presentation.search.SearchActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -74,8 +76,17 @@ public class HomeFragment extends Fragment {
         other();
         //nav
         navToInsert();
-
+        setOnClickListener();
         return binding.getRoot();
+    }
+
+    private void setOnClickListener() {
+        binding.searchView.setOnQueryTextFocusChangeListener((v, hasFocus) -> {
+            if (hasFocus) {
+                Intent intent = new Intent(requireContext(), SearchActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void navToInsert() {
@@ -212,5 +223,11 @@ public class HomeFragment extends Fragment {
             intent.putExtra("categoryId", 11);
             startActivity(intent);
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        binding.searchView.clearFocus();
     }
 }

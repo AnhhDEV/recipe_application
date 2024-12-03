@@ -39,5 +39,4 @@ public interface RecipeDao {
     LiveData<List<MeRecipe>> getTitles();
 
 
-
 }
