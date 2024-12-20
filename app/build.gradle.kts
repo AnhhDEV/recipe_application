@@ -51,7 +51,7 @@ dependencies {
     //gson
     implementation("com.google.code.gson:gson:2.10.1")
 
-    //recycleView
+    //recycleViewc
     implementation ("androidx.recyclerview:recyclerview:1.2.1")
 
     //room
