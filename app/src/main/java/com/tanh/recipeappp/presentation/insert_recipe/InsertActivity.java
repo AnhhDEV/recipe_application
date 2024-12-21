@@ -93,17 +93,18 @@ public class InsertActivity extends AppCompatActivity {
 
                     isAddingRecipe = true;
                     Log.d("recipeId", "id " + currentId);
-                    Recipe recipe = new Recipe(currentId + 1, title, categoryId, ingredients, instruction, currentUri.toString(), false);
-                    recipeViewModel.insertRecipe(recipe);
-
+                    if(title.trim().isEmpty() || ingredients.trim().isEmpty() || instruction.trim().isEmpty()) {
+                        Toast.makeText(InsertActivity.this, "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Recipe recipe = new Recipe(currentId + 1, title, categoryId, ingredients, instruction, currentUri.toString(), false);
+                        recipeViewModel.insertRecipe(recipe);
+                        binding.etTitle.setText("");
+                        binding.etIngredients.setText("");
+                        binding.etInstruction.setText("");
+                        Intent intent = new Intent(this, MainActivity.class);
+                        startActivity(intent);
+                    }
                 });
-
-                binding.etTitle.setText("");
-                binding.etIngredients.setText("");
-                binding.etInstruction.setText("");
-
-                Intent intent = new Intent(this, MainActivity.class);
-                startActivity(intent);
             }
         });
     }

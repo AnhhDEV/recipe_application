@@ -3,6 +3,7 @@ package com.tanh.recipeappp.presentation.insert_menu;
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
@@ -40,8 +41,8 @@ public class InsertMenuActivity extends AppCompatActivity {
     private Recipes2Adapter recipesAdapter2 = null;
     private Recipes2Adapter recipesAdapter3 = null;
 
+    String date = "";
 
-    String date = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,6 +92,7 @@ public class InsertMenuActivity extends AppCompatActivity {
             List<Recipe> breakfast = new ArrayList<>();
             List<Recipe> launch = new ArrayList<>();
             List<Recipe> dinner = new ArrayList<>();
+
             //auto1
             binding.autoBreakfast.setAdapter(adapter);
             binding.autoBreakfast.setThreshold(1);
@@ -104,6 +106,7 @@ public class InsertMenuActivity extends AppCompatActivity {
                     });
                 }
             });
+
             //auto2
             binding.autoLaunch.setAdapter(adapter);
             binding.autoLaunch.setThreshold(1);
@@ -117,6 +120,7 @@ public class InsertMenuActivity extends AppCompatActivity {
                     });
                 }
             });
+
             //auto3
             binding.autoDinner.setAdapter(adapter);
             binding.autoDinner.setThreshold(1);
@@ -132,10 +136,17 @@ public class InsertMenuActivity extends AppCompatActivity {
             });
 
             binding.addMenu.setOnClickListener(view -> {
-                Menu newMenu = new Menu(breakfast, launch, dinner, date);
-                menuViewModel.insertMenu(newMenu);
-                date = null;
-                finish();
+                if(date.isEmpty()) {
+                    Toast.makeText(this, "Vui lòng chọn ngày", Toast.LENGTH_SHORT).show();
+                } else if(breakfast.isEmpty() && launch.isEmpty() && dinner.isEmpty()) {
+                    Toast.makeText(this, "Vui lòng chuẩn bị ít nhất một bữa ăn", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Menu newMenu = new Menu(breakfast, launch, dinner, date);
+                    menuViewModel.insertMenu(newMenu);
+                    date = null;
+                    finish();
+                }
             });
         });
     }

@@ -423,6 +423,150 @@
     "instruction": "Bước đầu tiên là bạn hãy rang gạo nếp, gạo tẻ, đậu xanh và muối. Đảo đều tay cho đến khi các nguyên liệu có màu vàng và mùi thơm. Cắt sả thành từng khúc nhỏ, cho vào chảo rang cùng. Vịt bạn rửa sạch, rửa lại với muối hoặc chanh để khử mùi hôi, để ra rổ cho ráo nước. Ướp vịt với gừng, mật ong, hạt nêm trong khoảng 20-30 phút. Sau khi vịt đã ngấm gia vị, cho vịt lên khay hấp thuỷ nhiệt, hấp trong khoảng 30 phút. Bạn có thể kiểm tra xem thịt vịt đã chín chưa bằng cách dùng đũa đâm vào phần đùi vịt. Nếu thịt vịt đã chín sẽ không còn nước màu hồng nữa. Tắt bếp và đậy nắp để tầm 5 phút rồi lấy thịt vịt ra chặt thành miếng vừa ăn.",
     "imageUrl": "https://i.ibb.co/JjTHvGb/vit.jpg",
     "isFavorite": true
+  },
+  {
+    "id": 45,
+    "title": "Gỏi ngó sen tôm thịt",
+    "category": 9,
+    "ingredients": "Ngó sen: 300g, Tôm sú: 200g, Thịt ba chỉ: 150g, Cà rốt: 1 củ, Dưa leo: 1 quả, Rau răm, Đậu phộng rang, Nước mắm, Đường, Tỏi, Ớt, Chanh",
+    "instruction": "Ngó sen rửa sạch, ngâm nước muối loãng 10 phút, sau đó vớt ra để ráo. Tôm sú luộc chín, bóc vỏ. Thịt ba chỉ luộc chín, thái lát mỏng. Cà rốt, dưa leo bào sợi. Pha nước mắm trộn gỏi: 2 muỗng nước mắm, 1 muỗng đường, 1 muỗng nước cốt chanh, tỏi và ớt băm nhuyễn. Trộn ngó sen, tôm, thịt, cà rốt, dưa leo cùng nước mắm đã pha. Rắc thêm đậu phộng rang và rau răm thái nhỏ trước khi dùng.",
+    "imageUrl": "https://i.ibb.co/jMGG5Cm/g-i.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "title": "Gỏi cuốn tôm thịt",
+    "category": 9,
+    "ingredients": "Bánh tráng: 10 cái, Tôm sú: 200g, Thịt ba chỉ: 150g, Rau sống, Bún tươi: 200g, Nước chấm: nước mắm, tỏi, ớt, đường, chanh",
+    "instruction": "Luộc chín tôm và thịt ba chỉ, để nguội, cắt lát mỏng. Trải bánh tráng, xếp rau sống, bún, tôm, thịt lên, cuộn lại chặt tay. Pha nước chấm: 2 muỗng nước mắm, 1 muỗng đường, 1 muỗng nước cốt chanh, tỏi và ớt băm nhuyễn. Chấm gỏi cuốn với nước chấm và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/jMGG5Cm/g-i.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "title": "Gỏi xoài tôm khô",
+    "category": 9,
+    "ingredients": "Xoài xanh: 1 quả, Tôm khô: 50g, Rau răm, Đậu phộng rang, Nước mắm, Đường, Tỏi, Ớt",
+    "instruction": "Xoài xanh bào sợi. Tôm khô ngâm nước ấm 10 phút cho mềm, vớt ra để ráo. Pha nước mắm: 2 muỗng nước mắm, 1 muỗng đường, tỏi, ớt băm nhuyễn. Trộn xoài, tôm khô, rau răm, đậu phộng rang cùng nước mắm. Dùng ngay khi trộn để giữ độ giòn của xoài.",
+    "imageUrl": "https://i.ibb.co/3FKM0D8/g-i.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "title": "Gỏi bò bóp thấu",
+    "category": 9,
+    "ingredients": "Thịt bò: 300g, Hành tây: 1 củ, Chuối chát: 1 quả, Khế chua: 1 quả, Rau thơm, Nước mắm, Tỏi, Ớt, Đường, Chanh",
+    "instruction": "Thịt bò rửa sạch, thái lát mỏng, ướp với một ít muối, tiêu. Áp chảo thịt bò sơ qua. Hành tây thái lát mỏng, ngâm nước đá để giòn. Chuối chát, khế chua thái lát mỏng. Pha nước mắm trộn gỏi: 2 muỗng nước mắm, 1 muỗng đường, nước cốt chanh, tỏi, ớt băm nhuyễn. Trộn tất cả nguyên liệu với nước mắm, rắc thêm rau thơm trước khi dùng.",
+    "imageUrl": "https://i.ibb.co/NmvGSJZ/bo.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "title": "Gỏi cá mai",
+    "category": 9,
+    "ingredients": "Cá mai: 300g, Hành tây: 1 củ, Rau thơm, Đậu phộng rang, Bánh tráng, Nước mắm, Tỏi, Ớt, Đường, Chanh",
+    "instruction": "Cá mai làm sạch, ngâm với nước cốt chanh 10 phút để tái chín. Hành tây thái lát mỏng, ngâm nước đá. Pha nước mắm: 2 muỗng nước mắm, 1 muỗng đường, nước cốt chanh, tỏi, ớt băm nhuyễn. Trộn cá mai, hành tây, rau thơm, đậu phộng rang với nước mắm đã pha. Cuốn cùng bánh tráng khi ăn.",
+    "imageUrl": "https://i.ibb.co/zV2G9cm/ca.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "title": "Trà chanh sả gừng",
+    "category": 10,
+    "ingredients": "Chanh: 2 quả, Gừng: 1 củ nhỏ, Sả: 2 cây, Mật ong: 3 muỗng, Trà túi lọc: 2 gói, Nước: 500ml",
+    "instruction": "Gừng cạo vỏ, đập dập. Sả rửa sạch, cắt khúc, đập dập. Đun sôi nước, cho gừng và sả vào nấu 5 phút. Tắt bếp, cho 2 gói trà túi lọc vào ngâm 3 phút rồi vớt ra. Thêm mật ong, khuấy đều. Đợi trà nguội bớt, vắt nước cốt chanh vào, khuấy đều và rót ra ly để thưởng thức. Có thể thêm đá tùy thích.",
+    "imageUrl": "https://i.ibb.co/YPJJ2X8/lemonadde.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "title": "Sinh tố bơ",
+    "category": 10,
+    "ingredients": "Bơ chín: 1 quả, Sữa đặc: 2 muỗng, Sữa tươi: 200ml, Đá bào",
+    "instruction": "Bơ gọt vỏ, bỏ hạt, cắt nhỏ. Cho bơ, sữa đặc, sữa tươi, đá bào vào máy xay sinh tố. Xay nhuyễn đến khi mịn. Rót ra ly và thưởng thức ngay.",
+    "imageUrl": "https://i.ibb.co/LzkP7Cp/bo.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "title": "Nước ép cam cà rốt",
+    "category": 10,
+    "ingredients": "Cam: 2 quả, Cà rốt: 1 củ, Đường: 1 muỗng (tùy chọn), Đá viên",
+    "instruction": "Cam vắt lấy nước. Cà rốt rửa sạch, ép lấy nước. Trộn nước cam và nước cà rốt với nhau, thêm đường nếu muốn. Rót ra ly, thêm đá viên và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/RzPjb4p/cam.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "title": "Sữa đá sài gòn",
+    "category": 10,
+    "ingredients": "Cà phê Robusta: 40ml, Sữa đặc: 30ml, Đá viên: 200gr",
+    "instruction": "Pha cà phê bằng phin với 2 muỗng cà phê và 100ml nước sôi. Khi cà phê nhỏ giọt xong, thêm sữa đặc vào khuấy đều. Đổ cà phê vào ly có đá viên và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/GVP9Wm7/suda.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "title": "Trà sữa trân châu",
+    "category": 10,
+    "ingredients": "Trà đen: 2 gói, Sữa đặc: 3 muỗng, Trân châu: 50g, Nước: 500ml, Đá viên",
+    "instruction": "Nấu nước sôi, cho trà đen vào ngâm 5 phút. Vớt túi trà ra, thêm sữa đặc vào khuấy đều. Trân châu luộc chín theo hướng dẫn, vớt ra để ráo. Rót trà sữa ra ly, thêm trân châu và đá viên vào, thưởng thức.",
+    "imageUrl": "https://i.ibb.co/jzBSY7k/tra.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "title": "Xôi xoài Thái",
+    "category": 11,
+    "ingredients": "Gạo nếp: 200g, Xoài chín: 1 quả, Nước cốt dừa: 200ml, Đường: 50g, Muối: 1/4 muỗng cà phê, Lá dứa: 2 lá (tùy chọn)",
+    "instruction": "Ngâm gạo nếp trong nước ít nhất 4 tiếng, sau đó vo sạch. Hấp gạo nếp với lá dứa để thơm. Trong lúc hấp, đun nước cốt dừa với đường và muối, khuấy đều tay đến khi tan hết. Khi xôi chín, trộn nước cốt dừa vào xôi, để khoảng 10 phút cho thấm đều. Xoài gọt vỏ, cắt miếng vừa ăn. Dùng xôi kèm xoài và rưới thêm nước cốt dừa lên trên khi thưởng thức.",
+    "imageUrl": "https://i.ibb.co/D9DrqwZ/xoi-xoai.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "title": "Bánh flan",
+    "category": 11,
+    "ingredients": "Trứng gà: 4 quả, Sữa đặc: 200ml, Sữa tươi: 200ml, Đường: 100g, Nước: 50ml",
+    "instruction": "Làm caramel: Đun đường với nước đến khi ngả màu cánh gián, đổ vào khuôn. Đánh tan trứng gà, trộn đều với sữa đặc và sữa tươi. Lọc hỗn hợp qua rây, đổ vào khuôn đã có caramel. Hấp bánh trong 30 phút. Để nguội và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/CVj04rs/flan.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "title": "Bánh bao nhân thịt",
+    "category": 11,
+    "ingredients": "Bột mì: 500g, Thịt heo xay: 200g, Hành tây: 1 củ, Trứng cút: 10 quả, Men nở, Gia vị: đường, muối, tiêu",
+    "instruction": "Nhào bột mì với men nở, đường, nước ấm đến khi bột mịn, để bột nghỉ 1 tiếng. Xào nhân: thịt heo xay, hành tây thái nhỏ, nêm gia vị vừa ăn. Chia bột thành từng phần nhỏ, cán dẹt, đặt nhân vào giữa, thêm trứng cút, gói lại. Hấp bánh 20 phút. Dùng ngay khi còn nóng.",
+    "imageUrl": "https://i.ibb.co/vjfvsvX/banhbao.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "title": "Chè đậu xanh nước cốt dừa",
+    "category": 11,
+    "ingredients": "Đậu xanh: 200g, Nước cốt dừa: 200ml, Đường: 100g, Muối: 1/4 muỗng cà phê",
+    "instruction": "Ngâm đậu xanh 2 tiếng, sau đó nấu chín mềm. Thêm đường và một ít muối vào, khuấy đều. Khi chè chín, thêm nước cốt dừa vào, đun nhỏ lửa khoảng 5 phút. Rót chè ra ly và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/j4y1y6F/che.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "title": "Bánh chuối hấp",
+    "category": 11,
+    "ingredients": "Chuối chín: 4 quả, Bột năng: 200g, Đường: 100g, Nước cốt dừa: 200ml, Muối: 1/4 muỗng cà phê",
+    "instruction": "Chuối cắt lát mỏng, trộn với đường. Pha bột năng với nước và nước cốt dừa, khuấy đều. Trộn chuối với hỗn hợp bột. Đổ vào khuôn và hấp 30 phút. Khi bánh chín, thêm nước cốt dừa lên mặt bánh và thưởng thức.",
+    "imageUrl": "https://i.ibb.co/hyDnRxB/chuo.jpg",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "title": "Tàu hũ nước đường",
+    "category": 11,
+    "ingredients": "Đậu nành: 200g, Nước cốt dừa: 200ml, Đường: 100g, Gừng: 1 củ nhỏ",
+    "instruction": "Ngâm đậu nành 8 tiếng, xay nhuyễn với nước, lọc lấy nước. Nấu nước đậu với lửa nhỏ, khuấy đều tay. Đun nước đường với gừng thái lát. Khi tàu hũ đông, rót nước đường gừng và nước cốt dừa lên trên. Thưởng thức nóng hoặc lạnh.",
+    "imageUrl": "https://i.ibb.co/2WBnpL0/tau-hu.jpg",
+    "isFavorite": false
   }
 
 ]
